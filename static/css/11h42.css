@@ -1,9 +1,11 @@
 html, body {
     height: 100%;
+    margin: 0;
+    padding: 0
 }
 
 body {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
     font-size: 17px;
     color: #000;
@@ -12,6 +14,33 @@ body {
     padding: 0;
 }
 
+#logo {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+#vitrine {
+    height: 480px;
+}
+
+.block {
+    text-align: center;
+}
+
+.block:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em;
+}
+
+.centered {
+    display: inline-block;
+    vertical-align: middle;
+    width: 300px;
+}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {

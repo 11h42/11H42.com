@@ -3,6 +3,36 @@
 
 v0.0.1
 
+Install
+-------
+
+    cd config
+    npm install
+    bower install
+
+Build
+-----
+
+    jekyll build
+    cd config
+    gulp css
+    gulp uncss
+
+Test
+----
+start two processus:
+
+gulp in watch mode
+
+    cd config
+    gulp
+
+and jekyll web server in watch mode
+
+    jekyll serve --watch
+
+open in a browser http://0.0.0.0:4000/
+
 License
 -------
 The MIT License (MIT)
