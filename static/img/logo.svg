@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.0496114"
-     inkscape:cx="366.22633"
-     inkscape:cy="883.22609"
+     inkscape:zoom="0.49840087"
+     inkscape:cx="98.992936"
+     inkscape:cy="877.88302"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -121,22 +121,12 @@
        sodipodi:ry="8.5746021"
        d="m 427.77737,379.7323 a 9.5273352,8.5746021 0 1 1 -19.05467,0 9.5273352,8.5746021 0 1 1 19.05467,0 z"
        transform="matrix(0.78720858,0,0,0.87467615,-243.62584,213.48702)" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#ff7f2a;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="path3834"
-       sodipodi:cx="416.82092"
-       sodipodi:cy="858.00452"
-       sodipodi:rx="120.52079"
-       sodipodi:ry="120.04443"
-       d="m 537.34171,858.00452 a 120.52079,120.04443 0 1 1 -241.04158,0 120.52079,120.04443 0 1 1 241.04158,0 z"
-       transform="matrix(0.82973236,0,0,1,50.450323,2.3242187e-4)" />
     <g
        id="g3951"
-       transform="translate(0,-15.29289)"
+       transform="translate(0,-19.509955)"
        inkscape:export-filename="/Users/gvincent/Desktop/g3967.png"
-       inkscape:export-xdpi="100.01613"
-       inkscape:export-ydpi="100.01613">
+       inkscape:export-xdpi="300.02725"
+       inkscape:export-ydpi="300.02725">
       <path
          inkscape:connector-curvature="0"
          id="path3842"
@@ -154,42 +144,86 @@
          style="fill:#ff6600;fill-opacity:1;fill-rule:nonzero;stroke:none" />
     </g>
     <g
-       id="g3967"
-       inkscape:export-xdpi="100.01613"
-       inkscape:export-ydpi="100.01613">
-      <text
-         sodipodi:linespacing="100%"
-         id="text3866"
-         y="130.23819"
-         x="300.73666"
-         style="font-size:72.29537964px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;letter-spacing:12.90988922px;word-spacing:0px;fill:#22508a;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-         xml:space="preserve"><tspan
-           id="tspan3870"
-           style="font-size:92.95120239px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:7px;fill:#22508a;fill-opacity:1;font-family:Lato;-inkscape-font-specification:Lato"
+       id="g3018"
+       inkscape:export-filename="/Users/gvincent/Desktop/g3967.png"
+       inkscape:export-xdpi="300.02725"
+       inkscape:export-ydpi="300.02725">
+      <g
+         transform="matrix(0.99902446,0,0,1,-2.6184179,-2.4341295)"
+         inkscape:export-ydpi="300.02725"
+         inkscape:export-xdpi="300.02725"
+         id="g3967">
+        <text
+           xml:space="preserve"
+           style="font-size:72.29537964px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;letter-spacing:12.90988922px;word-spacing:0px;fill:#22508a;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
+           x="300.73666"
+           y="130.23819"
+           id="text3866"
+           sodipodi:linespacing="100%"><tspan
+             sodipodi:role="line"
+             x="300.73666"
+             y="130.23819"
+             style="font-size:92.95120239px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:7px;fill:#22508a;fill-opacity:1;font-family:Lato;-inkscape-font-specification:Lato"
+             id="tspan3870">11<tspan
+   style="font-size:32px;letter-spacing:7px"
+   id="tspan3922">H</tspan>42<tspan
+   style="font-size:32px;letter-spacing:7px"
+   id="tspan3930">.com</tspan></tspan><tspan
+             sodipodi:role="line"
+             x="300.73666"
+             y="223.18939"
+             style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:7px;fill:#ff6600;fill-opacity:1;font-family:Lato;-inkscape-font-specification:Lato"
+             id="tspan3924" /></text>
+        <text
+           xml:space="preserve"
+           style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;letter-spacing:10px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
+           x="310.37668"
+           y="158.22545"
+           id="text3938"
+           sodipodi:linespacing="100%"><tspan
+             sodipodi:role="line"
+             id="tspan3940"
+             x="310.37668"
+             y="158.22545"
+             style="font-size:20px;letter-spacing:1px;fill:#ff6600" /></text>
+      </g>
+      <g
+         transform="matrix(1.0095945,0,0,1,-7.7480151,-6)"
+         id="g3002"
+         inkscape:export-xdpi="300.02725"
+         inkscape:export-ydpi="300.02725">
+        <text
+           sodipodi:linespacing="100%"
+           id="text3004"
            y="130.23819"
            x="300.73666"
-           sodipodi:role="line">11<tspan
-   id="tspan3922"
-   style="font-size:32px;letter-spacing:7px">H</tspan>42<tspan
-   id="tspan3930"
-   style="font-size:32px;letter-spacing:7px">.com</tspan></tspan><tspan
-           id="tspan3924"
-           style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:7px;fill:#ff6600;fill-opacity:1;font-family:Lato;-inkscape-font-specification:Lato"
-           y="223.18939"
-           x="300.73666"
-           sodipodi:role="line" /></text>
-      <text
-         sodipodi:linespacing="100%"
-         id="text3938"
-         y="158.22545"
-         x="310.37668"
-         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;letter-spacing:10px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-         xml:space="preserve"><tspan
-           style="font-size:20px;letter-spacing:1px;fill:#ff6600"
+           style="font-size:72.29537964px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;letter-spacing:12.90988922px;word-spacing:0px;fill:#22508a;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
+           xml:space="preserve"><tspan
+             id="tspan3006"
+             style="font-size:92.95120239px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:7px;fill:#22508a;fill-opacity:1;font-family:Lato;-inkscape-font-specification:Lato"
+             y="0"
+             x="0"
+             sodipodi:role="line"><tspan
+               id="tspan3010"
+               style="font-size:32px;letter-spacing:7px" /></tspan><tspan
+             id="tspan3012"
+             style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:7px;fill:#ff6600;fill-opacity:1;font-family:Lato;-inkscape-font-specification:Lato"
+             y="92.951202"
+             x="0"
+             sodipodi:role="line" /></text>
+        <text
+           sodipodi:linespacing="100%"
+           id="text3014"
            y="158.22545"
            x="310.37668"
-           id="tspan3940"
-           sodipodi:role="line">incubateur de projets numériques</tspan></text>
+           style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;letter-spacing:10px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
+           xml:space="preserve"><tspan
+             style="font-size:20px;letter-spacing:1px;fill:#ff6600"
+             y="158.22545"
+             x="310.37668"
+             id="tspan3016"
+             sodipodi:role="line">incubateur de projets numériques</tspan></text>
+      </g>
     </g>
   </g>
 </svg>
