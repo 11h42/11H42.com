@@ -4,7 +4,8 @@
   "description": "incubateur de projets sur Bordeaux",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "screenshot": "node tests/screenshot.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/11h42/11H42.com/issues"
   },
-  "homepage": "https://github.com/11h42/11H42.com#readme"
+  "homepage": "https://github.com/11h42/11H42.com#readme",
+  "devDependencies": {
+    "pageres": "^3.0.2"
+  }
 }
