@@ -1,7 +1,0 @@
-name: 11h42.com
-description: code for 11h42.com web site
-url: http://11h42.com/
-pygments: True
-exclude: [bower_components]
-excerpt_separator: <!--more-->
-encoding: utf-8
