@@ -3,6 +3,27 @@
 ## Install
 
     npm install
+    
+## Tests
+
+### Visual regression testing (`csscritic`) 
+
+0. be sure to [install dependencies](#install) ;
+1. open _tests/csscritic.html_ in your browser ;
+2. wait… as screenshots are taken ;
+3. accept images as references if correct.
+
+## Deploy
+ 
+### Take screenshots (`pageres`)
+
+0. be sure to [install dependencies](#install) ;
+1. run:
+
+    ```
+    npm run-script screenshot
+    ```
+2. send file store in _tests/screenshots/_ directory.
 
 ## License
 
