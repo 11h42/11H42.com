@@ -19,7 +19,7 @@
    inkscape:export-xdpi="5.7600002"
    inkscape:export-ydpi="5.7600002">
   <title
-     id="title10207">11h42.com: incubateur de projets, Bordeaux</title>
+     id="title10207">11h42.com: accélérateur de projets, Bordeaux</title>
   <defs
      id="defs10209" />
   <sodipodi:namedview
@@ -49,7 +49,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title>11h42.com: incubateur de projets, Bordeaux</dc:title>
+        <dc:title>11h42.com: accélérateur de projets, Bordeaux</dc:title>
         <dc:date>2015-dec-04</dc:date>
         <dc:creator>
           <cc:Agent>
@@ -70,7 +70,7 @@
         <dc:language>fr</dc:language>
         <dc:subject>
           <rdf:Bag>
-            <rdf:li>incubateur</rdf:li>
+            <rdf:li>accélérateur</rdf:li>
             <rdf:li>projets</rdf:li>
             <rdf:li>web</rdf:li>
             <rdf:li>javascript</rdf:li>
@@ -78,7 +78,7 @@
             <rdf:li>bordeaux</rdf:li>
           </rdf:Bag>
         </dc:subject>
-        <dc:description>11h42.com: incubateur de projets web, Bordeaux</dc:description>
+        <dc:description>11h42.com: accélérateur de projets web, Bordeaux</dc:description>
         <cc:license
            rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
       </cc:Work>

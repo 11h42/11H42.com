@@ -1,7 +1,7 @@
 {
   "name": "11h42.com",
   "version": "0.0.2",
-  "description": "incubateur de projets sur Bordeaux",
+  "description": "accélérateur de projets sur Bordeaux",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/11h42/11H42.com.git"
   },
   "keywords": [
-    "incubateur",
+    "accélérateur",
     "projets",
     "bordeaux",
     "innovation"
