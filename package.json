@@ -26,7 +26,10 @@
   },
   "homepage": "https://github.com/11h42/11H42.com#readme",
   "devDependencies": {
-    "csscritic": "^1.2.0",
-    "pageres": "^3.0.2"
-  }
+    "csscritic": "1.2.x",
+    "pageres": "3.0.x",
+    "semantic-ui": "2.1.x"
+  },
+  "dependencies": {
+      }
 }

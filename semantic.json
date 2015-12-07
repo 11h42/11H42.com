@@ -1,0 +1,29 @@
+{
+  "base": "node_modules/semantic/",
+  "components": [
+    "button",
+    "container",
+    "header",
+    "reset",
+    "site"
+  ],
+  "paths": {
+    "source": {
+      "config": "src/theme.config",
+      "definitions": "src/definitions/",
+      "site": "src/site/",
+      "themes": "src/themes/"
+    },
+    "output": {
+      "packaged": "../../static/styles/",
+      "uncompressed": "../../static/styles/components/",
+      "compressed": "../../static/styles/components/",
+      "themes": "../../static/styles/themes/"
+    },
+    "clean": "../../static/styles/"
+  },
+  "permission": false,
+  "rtl": false,
+  "version": "2.1.6",
+  "admin": false
+}
