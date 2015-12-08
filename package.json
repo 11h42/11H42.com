@@ -4,7 +4,7 @@
   "description": "accélérateur de projets sur Bordeaux",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "static -p ${PORT:-5000} --gzip --host-address 0.0.0.0 ./",
     "screenshot": "node tests/screenshot.js"
   },
   "repository": {
@@ -27,9 +27,9 @@
   "homepage": "https://github.com/11h42/11H42.com#readme",
   "devDependencies": {
     "csscritic": "1.2.x",
+    "node-static": "0.7.x",
     "pageres": "3.0.x",
     "semantic-ui": "2.1.x"
   },
-  "dependencies": {
-      }
+  "dependencies": {}
 }
