@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/11h42/11H42.com#readme",
   "devDependencies": {
-    "csscritic": "1.2.x",
+    "csscritic": "https://github.com/cburgmer/csscritic.git",
     "node-static": "0.7.x",
     "pageres": "3.0.x",
     "semantic-ui": "2.1.x"
