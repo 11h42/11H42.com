@@ -1,12 +1,5 @@
 {
   "base": "node_modules/semantic/",
-  "components": [
-    "button",
-    "container",
-    "header",
-    "reset",
-    "site"
-  ],
   "paths": {
     "source": {
       "config": "src/theme.config",
@@ -20,10 +13,23 @@
       "compressed": "../../static/styles/components/",
       "themes": "../../static/styles/themes/"
     },
-    "clean": "../../static/styles/"
+    "clean": "../../static/"
   },
   "permission": false,
-  "rtl": false,
-  "version": "2.1.6",
-  "admin": false
+  "rtl": "No",
+  "components": [
+    "reset",
+    "site",
+    "button",
+    "container",
+    "divider",
+    "header",
+    "image",
+    "list",
+    "menu",
+    "item",
+    "visibility",
+    "segment"
+  ],
+  "version": "2.1.6"
 }
