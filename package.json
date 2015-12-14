@@ -4,8 +4,8 @@
   "description": "accélérateur de projets sur Bordeaux",
   "main": "index.js",
   "scripts": {
-    "build:app": "browserify -e ./app/index.js -o ./static/app-bundle.js",
     "build": "npm-run-all clean prepare build:semantic-ui build:app",
+    "build:app": "browserify -e ./app/index.js -o ./dist/app.js",
     "build:semantic-ui": "gulp --gulpfile ./node_modules/semantic-ui/gulpfile.js build",
     "clean": "rimraf ./dist/**/*",
     "prepare": "mkdir -p ./dist",
