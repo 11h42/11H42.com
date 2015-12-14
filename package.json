@@ -4,10 +4,13 @@
   "description": "accélérateur de projets sur Bordeaux",
   "main": "index.js",
   "scripts": {
+    "build": "npm-run-all clean prepare build:*",
     "build:app": "browserify -e ./app/index.js -o ./static/app-bundle.js",
     "build:semantic-ui": "gulp --gulpfile ./node_modules/semantic-ui/gulpfile.js build",
-    "serve": "static -p ${PORT:-5000} --gzip --host-address 0.0.0.0 ./",
+    "clean": "rimraf ./static/**/*",
+    "prepare": "mkdir -p ./static",
     "screenshot": "node tests/screenshot.js",
+    "serve": "static -p ${PORT:-5000} --gzip --host-address 0.0.0.0 ./",
     "watch": "PORT=${PORT:-$(get-port)} npm-run-all --parallel serve build:semantic-ui 'watch:*'",
     "watch:app": "watchify -dv -o ./app/index.js -p livereactload -o ./dist/app-bundle.js"
   },
