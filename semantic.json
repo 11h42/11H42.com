@@ -8,12 +8,12 @@
       "themes": "src/themes/"
     },
     "output": {
-      "packaged": "../../static/styles/",
-      "uncompressed": "../../static/styles/components/",
-      "compressed": "../../static/styles/components/",
-      "themes": "../../static/styles/themes/"
+      "packaged": "../../dist/styles/",
+      "uncompressed": "../../dist/styles/components/",
+      "compressed": "../../dist/styles/components/",
+      "themes": "../../dist/styles/themes/"
     },
-    "clean": "../../static/"
+    "clean": "../../dist/"
   },
   "permission": false,
   "rtl": "No",
