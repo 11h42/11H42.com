@@ -9,7 +9,8 @@
 ### Visual regression testing (`csscritic`) 
 
 0. be sure to [install dependencies](#install) ;
-1. open _tests/csscritic.html_ in your browser ;
+1. open _[tests/visual-regression.html][1]_ in your browser
+    * you can specify `prod` or `dev` as a query string parameter in the URL ;
 2. wait… as screenshots are taken ;
 3. accept images as references if correct.
 
@@ -48,3 +49,6 @@
 > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 > SOFTWARE.
+
+
+[1]: localhost:5000/tests/visual-regression.html?mode=dev
