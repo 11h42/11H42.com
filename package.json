@@ -48,6 +48,7 @@
     "cpy": "3.4.x",
     "csscritic": "https://github.com/cburgmer/csscritic.git",
     "jshint": "2.8.x",
+    "mocha": "^2.3.4",
     "node-static": "0.7.x",
     "npm-run-all": "1.4.x",
     "pageres": "3.0.x",
