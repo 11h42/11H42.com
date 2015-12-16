@@ -53,5 +53,31 @@
     "semantic-ui": "2.1.x",
     "watchify": "3.6.x"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ],
+      [
+        "sassify",
+        {
+          "auto-inject": true
+        }
+      ]
+    ]
+  },
+  "jshintConfig": {
+    "esnext": true
+  }
 }
