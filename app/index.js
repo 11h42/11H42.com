@@ -1,9 +1,10 @@
-import * as static from 'node-static';
-import * as stylesheet from './styles/app.scss';
+import * as nodeStatic from 'node-static';
+import * as stylesheet from '../assets/styles/app.scss';
+import * as http from 'http';
 
-var file = new static.Server('./dist');
+var file = new nodeStatic.Server('./dist');
 
-require('http').createServer(function (request, response) {
+http.createServer(function (request, response) {
     request.addListener('end', function () {
         //
         // Serve files!
