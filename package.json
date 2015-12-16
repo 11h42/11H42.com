@@ -44,13 +44,14 @@
   "devDependencies": {
     "cpy": "3.4.x",
     "csscritic": "https://github.com/cburgmer/csscritic.git",
-    "jshint": "^2.8.0",
+    "jshint": "2.8.x",
     "node-static": "0.7.x",
-    "npm-run-all": "^1.4.0",
+    "npm-run-all": "1.4.x",
     "pageres": "3.0.x",
-    "rimraf": "^2.4.4",
+    "rimraf": "2.4.x",
+    "sassify": "0.9.x",
     "semantic-ui": "2.1.x",
-    "watchify": "^3.6.1"
+    "watchify": "3.6.x"
   },
   "dependencies": {}
 }
