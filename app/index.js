@@ -1,4 +1,5 @@
 var static = require('node-static');
+import * as stylesheet from './styles/app.scss';
 
 var file = new static.Server('./dist');
 

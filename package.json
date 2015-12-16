@@ -5,9 +5,11 @@
   "main": "index.js",
   "scripts": {
     "build:production": "npm prune && npm install && npm run lint && npm test && npm run build",
-    "build": "npm-run-all clean prepare build:semantic-ui build:app",
+    "build": "npm-run-all clean prepare build:style build:app",
     "build:app": "browserify -e ./app/index.js -o ./dist/app.js",
+    "build:style": "npm-run-all copy:style build:semantic-ui",
     "build:semantic-ui": "gulp --gulpfile ./node_modules/semantic-ui/gulpfile.js build",
+    "copy:style": "cpy --cwd=assets/ '**/*.scss' ../dist/ --parents",
     "clean": "rimraf ./dist/**/*",
     "lint": "jshint app/**",
     "prepare": "mkdir -p ./dist",
@@ -40,6 +42,7 @@
   },
   "homepage": "https://github.com/11h42/11H42.com#readme",
   "devDependencies": {
+    "cpy": "3.4.x",
     "csscritic": "https://github.com/cburgmer/csscritic.git",
     "jshint": "^2.8.0",
     "node-static": "0.7.x",
