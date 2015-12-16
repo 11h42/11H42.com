@@ -22,7 +22,7 @@
 1. run:
 
     ```
-    npm run-script screenshot
+    npm run screenshot
     ```
 2. send file store in _tests/screenshots/_ directory.
 
