@@ -10,7 +10,6 @@
     "build:style": "npm-run-all copy:style build:semantic-ui",
     "build:semantic-ui": "gulp --gulpfile ./node_modules/semantic-ui/gulpfile.js build",
     "copy:style": "cpy --cwd=assets/ '**/*.scss' ../dist/ --parents",
-    "copy:jquery": "cpy 'node_modules/jquery/dist/jquery.min.js' ./dist/scripts/",
     "clean": "rimraf ./dist/**/*",
     "lint": "jshint app/**",
     "prepare": "mkdir -p ./dist",
