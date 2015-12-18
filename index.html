@@ -31,11 +31,37 @@
     </div>
   </div>
 
+<my-app>
+    Loading...
+</my-app>
+
 <div class="hero">
     <img src="assets/img/logo-11h42-accélérateur-de-projets-Bordeaux.png" alt="accélérateur de projets à Bordeaux"
          class="logo">
 </div>
 
-<script src="dist/app.js"></script>
+<script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
+<script src="node_modules/rxjs/bundles/Rx.umd.js"></script>
+<script src="node_modules/angular2/bundles/angular2-all.umd.js"></script>
+
+<!--<script src="dist/app.js"></script>-->
+<script>
+        (function(app) {
+      app.AppComponent = ng.core
+        .Component({
+          selector: 'my-app',
+          template: '<h1>My First Angular 2 App</h1>'
+        })
+        .Class({
+          constructor: function() {}
+        });
+    })(window.app || (window.app = {}));
+
+        (function(app) {
+      document.addEventListener('DOMContentLoaded', function() {
+        ng.platform.browser.bootstrap(app.AppComponent);
+      });
+    })(window.app || (window.app = {}));
+</script>
 </body>
 </html>
