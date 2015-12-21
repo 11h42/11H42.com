@@ -7,7 +7,7 @@
     "build": "npm-run-all clean prepare build:style build:app",
     "build:app": "browserify -e ./app/index.js -o ./dist/app.js",
     "build:production": "npm prune && npm install && npm run lint && npm test && npm run build",
-    "build:style": "npm run copy:style build:semantic-ui copy:semantic-ui",
+    "build:style": "npm-run-all copy:style build:semantic-ui; npm run copy:semantic-ui",
     "build:semantic-ui": "gulp --gulpfile ./node_modules/semantic-ui/gulpfile.js build",
     "copy:style": "cpy --cwd=assets/ '**/*.scss' ../dist/ --parents",
     "copy:semantic-ui": "cpy --cwd='semantic/dist' '**/*.*' ../../dist/ --parents",
