@@ -6,7 +6,5 @@ import jQuery from 'jquery';
 window.$ = $;
 window.jQuery = jQuery;
 
-import {bootstrap}    from './boot'
+import './boot'
 import {AppComponent} from './app.component'
-
-bootstrap(AppComponent);
