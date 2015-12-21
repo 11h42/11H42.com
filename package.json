@@ -10,7 +10,7 @@
     "build:style": "npm-run-all copy:style build:semantic-ui; npm run copy:semantic-ui",
     "build:semantic-ui": "gulp --gulpfile ./node_modules/semantic-ui/gulpfile.js build",
     "copy:style": "cpy --cwd=assets/ '**/*.scss' ../dist/ --parents",
-    "copy:semantic-ui": "cpy --cwd='semantic/dist' '**/*.*' ../../dist/ --parents",
+    "copy:semantic-ui": "cp -r semantic/dist/* ./dist/styles",
     "clean": "rimraf ./dist/**/*",
     "lint": "jshint app/**",
     "prepare": "mkdir -p ./dist",
