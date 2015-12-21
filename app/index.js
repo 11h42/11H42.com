@@ -1,7 +1,10 @@
 import * as stylesheet from '../assets/styles/app.scss';
 
-import jQuery from '../node_modules/jquery/dist/jquery';
-import $ from '../node_modules/jquery/dist/jquery';
+import $ from 'jquery';
+import jQuery from 'jquery';
+// export for others scripts to use
+window.$ = $;
+window.jQuery = jQuery;
 
 import {bootstrap}    from './boot'
 import {AppComponent} from './app.component'
