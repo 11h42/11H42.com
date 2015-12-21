@@ -57,7 +57,9 @@
     "semantic-ui": "2.1.x",
     "watchify": "3.6.x"
   },
-  "dependencies": {},
+  "dependencies": {
+    "jquery": "latest"
+  },
   "babel": {
     "presets": [
       "es2015"
