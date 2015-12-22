@@ -1,13 +1,12 @@
-(function () {
-    'use strict';
+import {Component} from 'angular2/core';
 
-    class Projects {
-        constructor() {
-        }
+@Component({
+    selector: 'projects',
+    templateUrl: '/app/projects.html'
+})
 
-        breath() {
-            return true;
-        }
-    }
-    module.exports = Projects;
-}());
+export class Projects {
+  constructor() {
+      console.log('Projects');
+  }
+}
