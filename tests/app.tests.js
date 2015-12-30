@@ -1,5 +1,5 @@
 import * as assert from 'assert';
-import * as Projects from '../app/projects';
+import * as Projects from '../app/projects/projects';
 
 (function () {
     'use strict';

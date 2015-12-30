@@ -1,9 +1,15 @@
 import {Component} from 'angular2/core';
+import {Projects} from '../app/projects/projects';
 
 @Component({
     selector: 'my-app',
-    templateUrl: '<h1>My First Angular 2 App</h1>'
+    template: '<projects>Loading...</projects>',
+    injectables: [Projects]
 })
 
 export class App {
+    constructor(projects:Projects) {
+        this.projects = projects;
+        console.log(this.projects);
+    }
 }

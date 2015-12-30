@@ -18,18 +18,17 @@
 
 
 <div class="ui inverted vertical masthead center aligned segment">
-
     <div class="ui container">
-      <div class="ui large secondary inverted pointing menu">
-        <a class="toc item">
-          <i class="sidebar icon"></i>
-        </a>
-        <a class="active item">Accélérez!</a>
-        <a class="item">Projets</a>
-        <a class="item">Contacts</a>
-      </div>
+        <div class="ui large secondary inverted pointing menu">
+            <a class="toc item">
+                <i class="sidebar icon"></i>
+            </a>
+            <a class="active item">Accélérez!</a>
+            <a class="item">Projets</a>
+            <a class="item">Contacts</a>
+        </div>
     </div>
-  </div>
+</div>
 
 <div class="ui one column doubling stackable grid container">
     <div class="column splash-video">
@@ -39,9 +38,17 @@
     </div>
 </div>
 
-<div class="hero">
-    <img src="assets/img/logo-11h42-accélérateur-de-projets-Bordeaux.png" alt="accélérateur de projets à Bordeaux"
-         class="logo">
+<div class="ui four column doubling stackable grid container">
+    <my-app>
+          <ng-content></ng-content>
+    </my-app>
+</div>
+
+<div class="ui four column doubling stackable grid container">
+    <div class="hero">
+        <img src="assets/img/logo-11h42-accélérateur-de-projets-Bordeaux.png" alt="accélérateur de projets à Bordeaux"
+             class="logo">
+    </div>
 </div>
 
 <script src="dist/app.js"></script>
