@@ -4,7 +4,7 @@ import {Projects} from '../app/projects/projects';
 @Component({
     selector: 'my-app',
     template: '<projects>Loading...</projects>',
-    injectables: [Projects]
+    directives: [Projects]
 })
 
 export class App {
