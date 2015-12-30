@@ -31,8 +31,13 @@
     </div>
   </div>
 
-<my-app> Loading... </my-app>
-<projects> Loading... </projects>
+<div class="ui one column doubling stackable grid container">
+    <div class="column splash-video">
+        <div class="ui embed" data-source="vimeo" data-id="14299029"
+             data-placeholder="assets/img/video-placeholder.jpg">
+        </div>
+    </div>
+</div>
 
 <div class="hero">
     <img src="assets/img/logo-11h42-accélérateur-de-projets-Bordeaux.png" alt="accélérateur de projets à Bordeaux"
@@ -41,5 +46,8 @@
 
 <script src="dist/app.js"></script>
 <script src="dist/styles/semantic.js"></script>
+<script>
+    $('.splash-video .ui.embed').embed();
+</script>
 </body>
 </html>
