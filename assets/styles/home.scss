@@ -105,7 +105,6 @@ $vertical-stripe-padding: 8em;
   }
 }
 
-
 #demarrez {
   background: url(/assets/img/masthead/space-x-falcon-9-rocket-light-trail.jpg);
   background: url(/assets/img/masthead/16169087563_0e3559ab5b_o.jpg);
@@ -119,5 +118,23 @@ $vertical-stripe-padding: 8em;
   background: url(/assets/img/masthead/NYKbFpZ.jpg);
   background-size: cover;
 }
+
+#vos-avis {
+  .grid .row {
+    padding-top: 0;
+    padding-bottom: $vertical-stripe-padding / 4;
   }
+  blockquote:before {
+    font-family: 'Icons';
+    content: "\f10d";
+    font-size: 4em;
+    float: left;
+    color: #DCDDDE;
+    margin-left: 0;
+    padding-right: 1rem;
+  }
+  blockquote > h3 {
+    font-style: italic;
+  }
+
 }
