@@ -201,8 +201,9 @@
                     </div>
                 </div>
                 <div class="seven wide column">
-                    <h4 class="ui inverted header">Footer Header</h4>
-                    <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
+                    <h4 class="ui inverted header">Venir nous voir</h4>
+                    <div class="ui map embed" data-placeholder="assets/img/map-bordeaux-akema-sas-cestas.png"
+                         data-url="https://www.google.com/maps/place/AKEMA+SAS/@44.752805,-0.6882117,17z/data=!3m1!4b1!4m2!3m1!1s0xd54dc22dbd71971:0x7a085ce389ae0d47?hl=en"></div>
                 </div>
             </div>
         </div>
@@ -213,6 +214,7 @@
 <script src="dist/styles/semantic.js"></script>
 <script>
     $('.splash-video .ui.embed').embed();
+    $('.map .ui.embed').embed();
 
     $(document)
             .ready(function () {
