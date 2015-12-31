@@ -3,20 +3,7 @@
 
 .masthead.segment {
   min-height: 700px;
-  padding: 1em 0em; }
-
-#demarrez {
-  background: url(/assets/img/masthead/space-x-falcon-9-rocket-light-trail.jpg);
-  background: url(/assets/img/masthead/16169087563_0e3559ab5b_o.jpg);
-  background: url(/assets/img/masthead/16510243060_48d6a9b1f6_o.jpg);
-  background: url(/assets/img/masthead/16698990295_656083bfa1_o.jpg);
-  background: url(/assets/img/masthead/16789021675_35f0148f78_o.jpg);
-  background: url(/assets/img/masthead/CRS-4-Launch.jpg);
-  background: url(/assets/img/masthead/Falcon-9-DSCOVR-Launch.jpg);
-  background: url(/assets/img/masthead/Falcon-9-DSCOVR-Launch-2.jpg);
-  background: url(/assets/img/masthead/Liftoff-of-Upgraded-Falcon-9.jpg);
-  background: url(/assets/img/masthead/NYKbFpZ.jpg);
-  background-size: cover; }
+  padding: 1em 0; }
 
 .masthead .logo.item img {
   margin-right: 1em; }
@@ -26,7 +13,7 @@
 
 .masthead h1.ui.header {
   margin-top: 3em;
-  margin-bottom: 0em;
+  margin-bottom: 0;
   font-size: 4em;
   font-weight: normal; }
 
@@ -35,33 +22,29 @@
   font-weight: normal; }
 
 .ui.vertical.stripe {
-  padding: 8em 0em; }
-
-.ui.vertical.stripe h3 {
-  font-size: 2em; }
-
-.ui.vertical.stripe .button + h3,
-.ui.vertical.stripe p + h3 {
-  margin-top: 3em; }
-
-.ui.vertical.stripe .floated.image {
-  clear: both; }
-
-.ui.vertical.stripe p {
-  font-size: 1.33em; }
-
-.ui.vertical.stripe .horizontal.divider {
-  margin: 3em 0em; }
+  padding: 8em 0; }
+  .ui.vertical.stripe h3 {
+    font-size: 2em; }
+  .ui.vertical.stripe .button + h3,
+  .ui.vertical.stripe p + h3 {
+    margin-top: 3em; }
+  .ui.vertical.stripe .floated.image {
+    clear: both; }
+  .ui.vertical.stripe p {
+    font-size: 1.33em; }
+  .ui.vertical.stripe .horizontal.divider {
+    margin: 3em 0; }
 
 .quote.stripe.segment {
-  padding: 0em; }
-
-.quote.stripe.segment .grid .column {
-  padding-top: 5em;
-  padding-bottom: 5em; }
+  padding: 4em; }
+  .quote.stripe.segment .grid .column {
+    padding-top: 2em;
+    padding-bottom: 2em; }
 
 .footer.segment {
-  padding: 5em 0em; }
+  padding: 5em 0; }
+  .footer.segment address {
+    font-style: normal; }
 
 .secondary.pointing.menu .toc.item {
   display: none; }
@@ -82,3 +65,23 @@
   .masthead h2 {
     margin-top: 0.5em;
     font-size: 1.5em; } }
+
+#demarrez {
+  background: url(/assets/img/masthead/masthead.jpg);
+  background-size: cover; }
+
+#avis-clients .grid .row {
+  padding-top: 0;
+  padding-bottom: 2em; }
+
+#avis-clients blockquote:before {
+  font-family: 'Icons';
+  content: "\f10d";
+  font-size: 4em;
+  float: left;
+  color: #DCDDDE;
+  margin-left: 0;
+  padding-right: 1rem; }
+
+#avis-clients blockquote > h3 {
+  font-style: italic; }
