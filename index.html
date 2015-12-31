@@ -22,7 +22,7 @@
         <a class="item" href="#demarrez">Acceuil</a>
         <a class="active item" href="#accelerez">Accélérez!</a>
         <!--<a class="item" href="#équipe">Équipe</a>-->
-        <a class="item" href="#vos-avis">Clients</a>
+        <a class="item" href="#avis-clients">Clients</a>
         <a class="item" href="#projets">Projets</a>
         <a class="item" href="#a-propos">À propos</a>
     </div>
@@ -33,7 +33,7 @@
     <a class="item" href="#demarrez">Acceuil</a>
     <a class="active item" href="#accelerez">Accélérez!</a>
     <!--<a class="item" href="#équipe">Équipe</a>-->
-    <a class="item" href="#vos-avis">Clients</a>
+    <a class="item" href="#avis-clients">Clients</a>
     <a class="item" href="#projets">Projets</a>
     <a class="item" href="#a-propos">À propos</a>
 </div>
@@ -50,7 +50,7 @@
                 <a class="item" href="#demarrez">Acceuil</a>
                 <a class="active item" href="#accelerez">Accélérez!</a>
                 <!--<a class="item" href="#équipe">Équipe</a>-->
-                <a class="item" href="#vos-avis">Clients</a>
+                <a class="item" href="#avis-clients">Clients</a>
                 <a class="item" href="#projets">Projets</a>
                 <a class="item" href="#a-propos">À propos</a>
             </div>
@@ -87,8 +87,7 @@
         </div>
     </div>
 
-
-    <div id="vos-avis" class="ui vertical stripe quote segment">
+    <div id="avis-clients" class="ui vertical stripe quote segment">
         <div class="ui twelve column grid">
             <div class="ui two column row">
                 <div class="one wide column"></div>
@@ -160,7 +159,6 @@
             </div>
         </div>
     </div>
-
 
     <div id="projets" class="ui vertical stripe segment">
         <div class="ui text container">
@@ -253,7 +251,7 @@
         </div>
     </div>
 
-    <div id="a-propos" class="ui inverted vertical footer segment">
+    <footer id="a-propos" class="ui inverted vertical footer segment">
         <div class="ui container">
             <div class="ui stackable inverted divided equal height stackable grid">
                 <div class="three wide column">
@@ -286,14 +284,13 @@
                 </div>
             </div>
         </div>
-    </div>
+    </footer>
 </div>
 
 <script src="dist/app.js"></script>
 <script src="dist/styles/semantic.js"></script>
 <script>
-    $('.splash-video .ui.embed').embed();
-    $('.map .ui.embed').embed();
+    $('#map').embed();
 
     $(document)
             .ready(function () {
