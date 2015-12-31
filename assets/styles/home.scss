@@ -67,6 +67,9 @@ $vertical-stripe-padding: 8em;
 
 .footer.segment {
   padding: 5em 0;
+  & address {
+    font-style: normal;
+  }
 }
 
 .secondary.pointing.menu .toc.item {
