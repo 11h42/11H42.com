@@ -1,5 +1,3 @@
-import * as stylesheet from '../assets/styles/home.scss';
-
 import $ from 'jquery';
 import jQuery from 'jquery';
 // export for others scripts to use
