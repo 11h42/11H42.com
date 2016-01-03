@@ -1,5 +1,5 @@
-import $ from 'jquery';
-import jQuery from 'jquery.min';
+import $ from 'jquery/dist/jquery.min';
+import jQuery from 'jquery/dist/jquery.min';
 // export for others scripts to use
 window.$ = $;
 window.jQuery = jQuery;
