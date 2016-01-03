@@ -37,6 +37,7 @@
     "embed",
     "sidebar",
     "sticky",
+    "transition",
     "api",
     "state",
     "visibility"
