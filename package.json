@@ -20,7 +20,7 @@
     "start": "npm run serve",
     "test": "mocha --compilers js:babel-core/register tests",
     "watch": "PORT=${PORT:-5000} npm-run-all --parallel serve watch:app",
-    "watch:style": "node-sass -w assets/styles/home.scss dist/styles/home.css",
+    "watch:style": "node-sass -w assets/styles/index.scss dist/styles/index.css",
     "watch:app": "watchify -dv -e ./app/index.js -o ./dist/app.js",
     "watch:tests": "npm test -- -w"
   },
