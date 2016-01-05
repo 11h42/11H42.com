@@ -162,3 +162,10 @@ $shadow-color: #666;
   }
 
 }
+
+#avis-clients .header {
+  margin-bottom: $vertical-stripe-padding / 8 * 2;
+}
+#détails-projets .header {
+  margin-bottom: $vertical-stripe-padding / 8 * 1.25;
+}
