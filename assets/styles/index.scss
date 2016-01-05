@@ -39,7 +39,7 @@ $vertical-stripe-padding: 8em;
 }
 
 .ui.vertical.stripe {
-  padding: $vertical-stripe-padding 0;
+  padding: ($vertical-stripe-padding / 2) 0 $vertical-stripe-padding;
 
   & h3 {
     font-size: 2em;
