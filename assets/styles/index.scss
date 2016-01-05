@@ -83,7 +83,7 @@ $shadow-color: #666;
   }
 }
 
-.quote.stripe.segment {
+.stripe.segment {
   padding: $vertical-stripe-padding/2;
 
   .grid .column {
@@ -170,11 +170,13 @@ $shadow-color: #666;
 
 }
 
-#avis-clients .header {
+#avis-clients > .header {
   margin-bottom: $vertical-stripe-padding / 8 * 2;
 }
-#détails-projets .header {
+
+#détails-projets > .header {
   margin-bottom: $vertical-stripe-padding / 8 * 1.25;
+}
 
 #notre-équipe {
   $avatar-height: 200px;
