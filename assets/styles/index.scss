@@ -7,7 +7,6 @@ $shadow-color: #666;
   display: none;
 }
 
-.icon {
 .center-avatar {
   display: flex;
   align-items: center;
@@ -25,6 +24,7 @@ $shadow-color: #666;
   }
 }
 
+h3 .icon {
   text-shadow: $shadow-offset $shadow-offset $shadow-blur $shadow-color;
 }
 
