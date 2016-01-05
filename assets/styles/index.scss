@@ -147,13 +147,17 @@ h3 .icon {
   $logo-height: 200px;
 
   & .card > .image > a {
+    @extend .center-avatar;
     height: $logo-height;
   }
 }
+
 #avis-clients {
   .grid .row {
     padding-top: 0;
     padding-bottom: $vertical-stripe-padding / 4;
+    padding-bottom: 0;
+    margin-bottom: -1em;
   }
   blockquote:before {
     font-family: 'Icons';
