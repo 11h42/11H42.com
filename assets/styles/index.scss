@@ -15,17 +15,12 @@ $shadow-color: #666;
 
 .cards .no-border.card,
 .cards .no-border.card:hover,
-.link.cards .no-border.card:hover
-{
+.link.cards .no-border.card:hover {
   border-color: transparent;
   box-shadow: 0 1px 3px 0 transparent, 0 0 0 1px transparent;
   & .image {
     background-color: transparent;
   }
-}
-
-h3 .icon {
-  text-shadow: $shadow-offset $shadow-offset $shadow-blur $shadow-color;
 }
 
 .masthead {
@@ -58,37 +53,34 @@ h3 .icon {
   }
 }
 
-.ui.vertical.stripe {
-  padding: ($vertical-stripe-padding / 2) 0 $vertical-stripe-padding;
-
-  & h3 {
-    font-size: 2em;
+.ui.vertical {
+  &.segment {
+    border-bottom: none;
   }
 
-  & .button + h3,
-  & p + h3 {
-    margin-top: 3em;
-  }
+  &.stripe {
+    padding: ($vertical-stripe-padding / 2) 0 $vertical-stripe-padding;
 
-  & .floated.image {
-    clear: both;
-  }
+    & h3 {
+      font-size: 2em;
+    }
 
-  & p {
-    font-size: 1.33em;
-  }
+    & .button + h3,
+    & p + h3 {
+      margin-top: 3em;
+    }
 
-  & .horizontal.divider {
-    margin: 3em 0;
-  }
-}
+    & .floated.image {
+      clear: both;
+    }
 
-.stripe.segment {
-  padding: $vertical-stripe-padding/2;
+    & p {
+      font-size: 1.33em;
+    }
 
-  .grid .column {
-    padding-top: 2em;
-    padding-bottom: 2em;
+    & .horizontal.divider {
+      margin: 3em 0;
+    }
   }
 }
 
@@ -152,11 +144,6 @@ h3 .icon {
   }
 }
 
-  .grid .row {
-    padding-top: 0;
-    padding-bottom: $vertical-stripe-padding / 4;
-    padding-bottom: 0;
-    margin-bottom: -1em;
 #avis-clients + section {
   padding-top: $vertical-stripe-padding / 2;
 
@@ -175,24 +162,15 @@ h3 .icon {
   blockquote > h3 {
     font-style: italic;
   }
-
-}
-
-#avis-clients > .header {
-  margin-bottom: $vertical-stripe-padding / 8 * 2;
-}
-
-#détails-projets > .header {
-  margin-bottom: $vertical-stripe-padding / 8 * 1.25;
 }
 
 #notre-équipe + section {
   $avatar-height: 200px;
 
-  & .card .content {
+  & .card .content > .circular.image {
+    margin-bottom: 1rem;
   }
-  & .card .image {
+  & .card > .image > a {
     @extend .center-avatar;
-    //height: $avatar-height;
   }
 }
