@@ -126,6 +126,23 @@ $shadow-color: #666;
   background-size: cover;
 }
 
+#projets-overview {
+  $logo-height: 200px;
+
+  & .card {
+    border-color: transparent;
+    box-shadow: 0 1px 3px 0 transparent,0 0 0 1px transparent;
+  }
+  & .card > .image {
+    background-color: transparent;
+  }
+  & .card > .image > a {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    height: $logo-height;
+  }
+}
 #avis-clients {
   .grid .row {
     padding-top: 0;
