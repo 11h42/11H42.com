@@ -1,16 +1,19 @@
 $vertical-stripe-padding: 8em;
+$shadow-offset: 2px;
+$shadow-blur: 2px;
+$shadow-color: #666;
 
 .hidden.menu {
   display: none;
 }
 
+.icon {
+  text-shadow: $shadow-offset $shadow-offset $shadow-blur $shadow-color;
+}
+
 .masthead {
   & .header {
-    $offset: 2px;
-    $blur: 2px;
-    $shadow-color: #0E6EB8;
-    $shadow-color: #333;
-    text-shadow: $offset $offset $blur $shadow-color;
+    text-shadow: $shadow-offset $shadow-offset $shadow-blur $shadow-color;
   }
   &.segment {
     min-height: 700px;
