@@ -8,6 +8,23 @@ $shadow-color: #666;
 }
 
 .icon {
+.center-avatar {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.cards .no-border.card,
+.cards .no-border.card:hover,
+.link.cards .no-border.card:hover
+{
+  border-color: transparent;
+  box-shadow: 0 1px 3px 0 transparent, 0 0 0 1px transparent;
+  & .image {
+    background-color: transparent;
+  }
+}
+
   text-shadow: $shadow-offset $shadow-offset $shadow-blur $shadow-color;
 }
 
@@ -129,17 +146,7 @@ $shadow-color: #666;
 #projets-overview {
   $logo-height: 200px;
 
-  & .card {
-    border-color: transparent;
-    box-shadow: 0 1px 3px 0 transparent,0 0 0 1px transparent;
-  }
-  & .card > .image {
-    background-color: transparent;
-  }
   & .card > .image > a {
-    display: flex;
-    align-items: center;
-    align-content: center;
     height: $logo-height;
   }
 }
@@ -168,4 +175,14 @@ $shadow-color: #666;
 }
 #détails-projets .header {
   margin-bottom: $vertical-stripe-padding / 8 * 1.25;
+
+#notre-équipe {
+  $avatar-height: 200px;
+
+  & .card .content {
+  }
+  & .card .image {
+    @extend .center-avatar;
+    //height: $avatar-height;
+  }
 }
