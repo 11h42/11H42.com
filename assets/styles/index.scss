@@ -129,6 +129,10 @@ $shadow-color: #666;
     @extend .center-avatar;
     height: $logo-height;
   }
+
+  .akemail img {
+    width: 160px;
+  }
 }
 
 #avis-clients + section {
