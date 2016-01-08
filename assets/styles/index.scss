@@ -2,6 +2,7 @@ $vertical-stripe-padding: 8em;
 $shadow-offset: 2px;
 $shadow-blur: 2px;
 $shadow-color: #666;
+$link-hover-color: #1e70bf;
 
 .hidden.menu {
   display: none;
@@ -114,12 +115,30 @@ $shadow-color: #666;
   }
 }
 
+.divider.header {
+  & .text, & .icon {
+    color: #999;
+  }
+  &:hover .text {
+    color: $link-hover-color;
+  }
+  & .icon {
+    padding-right: .25em;
+  }
+}
+
 #demarrez {
   //background: url(/assets/img/masthead/space-x-falcon-9-rocket-light-trail.jpg);
   background: url(/assets/img/masthead/masthead.jpg);
   //background: url(/assets/img/masthead/Falcon-9-DSCOVR-Launch-2.jpg);
   //background: url(/assets/img/masthead/NYKbFpZ.jpg);
   background-size: cover;
+}
+
+#accelerez {
+  #ensemble {
+    margin-top: 4em;
+  }
 }
 
 #projets-overview + section {
