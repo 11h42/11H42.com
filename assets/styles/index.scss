@@ -54,6 +54,34 @@ $link-hover-color: #1e70bf;
   }
 }
 
+.image.copyright {
+  position: absolute;
+  padding: .25em .5em;
+  bottom: 0;
+  right: 0;
+  opacity: .7;
+  transition: all .5s;
+  & .cc0 {
+    vertical-align: middle;
+  }
+  & a {
+    $shadow-offset: 1px;
+    $shadow-blur: 1px;
+    color: #fff;
+    text-shadow: $shadow-offset $shadow-offset $shadow-blur $shadow-color;
+  }
+  &:hover {
+    transition: all .5s;
+    opacity: 1;
+    background-color: #fff;
+    color: #333;
+    & a {
+      color: #4183C4;
+      text-shadow: none;
+    }
+  }
+}
+
 .ui.vertical {
   &.segment {
     border-bottom: none;

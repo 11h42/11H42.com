@@ -40,6 +40,27 @@
   font-size: 1.7em;
   font-weight: normal; }
 
+.image.copyright {
+  position: absolute;
+  padding: .25em .5em;
+  bottom: 0;
+  right: 0;
+  opacity: .7;
+  transition: all .5s; }
+  .image.copyright .cc0 {
+    vertical-align: middle; }
+  .image.copyright a {
+    color: #fff;
+    text-shadow: 1px 1px 1px #666; }
+  .image.copyright:hover {
+    transition: all .5s;
+    opacity: 1;
+    background-color: #fff;
+    color: #333; }
+    .image.copyright:hover a {
+      color: #4183C4;
+      text-shadow: none; }
+
 .ui.vertical.segment {
   border-bottom: none; }
 
