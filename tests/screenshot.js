@@ -5,6 +5,7 @@ const pageres = new Pageres({
     filename: '<%= date %>-<%= time %>.<%= url %>-<%= size %><%= crop %>'
 })
     .src('http://localhost:5000/', ['w3counter'])
+    .src('http://localhost:5000/legal.html', ['w3counter'])
     .dest(__dirname + '/screenshots')
     .run()
     .then(function () {
