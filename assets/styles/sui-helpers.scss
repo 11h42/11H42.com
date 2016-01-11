@@ -1,0 +1,83 @@
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.titlecase {
+  @extend .capitalize;
+}
+
+.smallcaps {
+  font-variant: small-caps;
+}
+
+blockquote {
+  &:before {
+    font-family: 'Icons';
+    content: "\f10d";
+    font-size: 3rem;
+    font-style: normal;
+    float: left;
+    color: #DCDDDE;
+    margin-left: -3rem;
+    margin-top: 1rem;
+    padding-right: 1rem;
+  }
+  font-size: 1em;
+  font-style: italic;
+}
+
+.ui.list.without-bullet {
+  margin-left: 0;
+}
+.ui.list.without-bullet li::before {
+  list-style-type: none;
+  content: '';
+}
+
+.ui.mini.text {
+  font-size: 0.64285714em;
+  line-height: 1.5em;
+}
+
+.ui.tiny.text {
+  font-size: 0.71428571em;
+  line-height: 1.5em;
+}
+
+.ui.small.text {
+  font-size: 0.78571429em;
+  line-height: 1.5em;
+}
+
+.ui.text {
+  font-size: 0.85714286em;
+  line-height: 1.5em;
+}
+
+.ui.large.text {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.ui.big.text {
+  font-size: 1.28571429em;
+  line-height: 1.5em;
+}
+
+.ui.huge.text {
+  font-size: 1.42857143em;
+  line-height: 1.5em;
+}
+
+.ui.massive.text {
+  font-size: 1.71428571em;
+  line-height: 1.5em;
+}

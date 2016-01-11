@@ -8,7 +8,7 @@
     "build:app": "browserify -e ./app/index.js -o ./dist/app.js",
     "build:production": "npm prune && npm install && npm run lint && npm test && npm run build",
     "build:style": "npm run build:semantic-ui; npm run build:style-custom; npm run copy:style",
-    "build:style-custom": "node-sass assets/styles/index.scss dist/styles/index.css",
+    "build:style-custom": "node-sass -r assets/styles/index.scss dist/styles/index.css",
     "build:semantic-ui": "gulp --gulpfile ./node_modules/semantic-ui/gulpfile.js build",
     "copy:style": "copyfiles -u 2 semantic/dist/{**/,}*  semantic/dist/**/icons.* ./dist/styles",
     "clean": "rimraf ./dist/**/*",
@@ -21,7 +21,7 @@
     "start": "npm run serve",
     "test": "mocha --compilers js:babel-core/register tests",
     "watch": "PORT=${PORT:-5000} npm-run-all --parallel serve watch:app",
-    "watch:style": "node-sass -w assets/styles/index.scss dist/styles/index.css",
+    "watch:style": "node-sass -w -r assets/styles/index.scss dist/styles/index.css",
     "watch:app": "watchify -dv -e ./app/index.js -o ./dist/app.js",
     "watch:tests": "npm test -- -w"
   },
