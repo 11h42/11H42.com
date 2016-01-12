@@ -32,6 +32,24 @@ blockquote {
   list-style-type: none;
   content: ''; }
 
+.ui.definitions dt, .ui.definitions .label {
+  font-weight: bold; }
+
+.ui.definitions.horizontal {
+  display: inline-block; }
+  .ui.definitions.horizontal dt, .ui.definitions.horizontal .label {
+    float: left;
+    clear: left;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 5em; }
+    .ui.definitions.horizontal dt + dd, .ui.definitions.horizontal dt + .value,
+    .ui.definitions.horizontal dt ~ dd, .ui.definitions.horizontal dt ~ .value, .ui.definitions.horizontal .label + dd, .ui.definitions.horizontal .label + .value,
+    .ui.definitions.horizontal .label ~ dd, .ui.definitions.horizontal .label ~ .value {
+      margin-left: 5.5em; }
+
 .ui.mini.text {
   font-size: 0.64285714em;
   line-height: 1.5em; }
@@ -63,6 +81,12 @@ blockquote {
 .ui.massive.text {
   font-size: 1.71428571em;
   line-height: 1.5em; }
+
+.legal.pusher {
+  margin-top: 8em; }
+
+.legal .info {
+  padding-left: 2em; }
 
 .hidden.menu {
   display: none; }
