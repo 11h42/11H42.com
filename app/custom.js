@@ -21,5 +21,13 @@ $(document)
             .sidebar('attach events', '.toc.item')
         ;
 
+        // lazy-load images
+        $('#notre-équipe').find('+ section .image img')
+            .visibility({
+                type: 'image',
+                transition: 'fade in',
+                duration: 1000
+            })
+        ;
     })
 ;
