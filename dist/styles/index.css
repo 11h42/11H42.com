@@ -40,7 +40,6 @@ blockquote {
   .ui.definitions.horizontal dt, .ui.definitions.horizontal .label {
     float: left;
     clear: left;
-    text-align: right;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
