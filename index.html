@@ -705,12 +705,40 @@
                 </div>
                 <div class="three wide column">
                     <h4 class="ui inverted header">Venir nous voir</h4>
-                    <address>
-                        11h42 - AKEMA SAS <br>
-                        3 Chemin de Marticot<br>
-                        33610 Cestas, France<br>
-                    </address>
-                    <abbr title="téléphone">Tél.</abbr>: (+33).556.787.250
+                    <div class="vcard">
+                        <span class="fn org name">11h42 - AKEMA SAS</span> <br>
+                        <address class="adr">
+                            <span class="street-address">3 Chemin de Marticot</span><br>
+                            <span class="postal-code">33610</span>
+                            <span class="locality">Cestas</span>,<br>
+                            <span class="country-name">France</span>
+                        </address>
+                        <span class="tel">
+                            <abbr title="téléphone">Tél.</abbr>:
+                            <span class="value">(+33).556.787.250</span>
+                        </span>
+                    </div>
+
+                    <h4 class="ui inverted header">Horaires</h4>
+                    <div xmlns:gr="http://purl.org/goodrelations/v1#" rel="gr:hasOpeningHoursSpecification">
+                        <div about="#mon_fri" typeof="gr:OpeningHoursSpecification">
+                              <span rel="gr:hasOpeningHoursDayOfWeek"
+                                    resource="http://purl.org/goodrelations/v1#Monday">Lundi</span>
+                              <span rel="gr:hasOpeningHoursDayOfWeek"
+                                    resource="http://purl.org/goodrelations/v1#Tuesday"></span>
+                              <span rel="gr:hasOpeningHoursDayOfWeek"
+                                    resource="http://purl.org/goodrelations/v1#Wednesday"></span>
+                              <span rel="gr:hasOpeningHoursDayOfWeek"
+                                    resource="http://purl.org/goodrelations/v1#Thursday"></span>
+                              <span rel="gr:hasOpeningHoursDayOfWeek"
+                                    resource="http://purl.org/goodrelations/v1#Friday">à Vendredi</span>
+                        </div>
+                        <div>
+                            <span property="gr:opens" content="08:00:00" datatype="xsd:time">08:00</span>
+                            à
+                            <span property="gr:closes" content="18:00:00" datatype="xsd:time">18:00</span>
+                        </div>
+                    </div>
                 </div>
                 <div class="seven wide column">
                     <div id="map" class="ui embed"
