@@ -1,0 +1,25 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Frédéric Bernard -- Big Boss -- @fdbern
+    Cédric Ricard -- Architecte Infrastructure Distribuée -- @cedric_ricard
+    Steve Maréchal -- Expert Algorithmique & Base de données --
+    Guillaume Vincent -- Artisan Logiciel, Qualité & Tests -- @guillaume20100
+    Jeremi Manenti -- Développeur Polyglotte --
+    Édouard Lopez -- Évangéliste eXperience Utilisateur (UX) & DataViz designer -- @edouard_lopez
+    Pierre-Olivier Granjou -- DevOps & SysAdmin --
+
+# THANKS
+
+    You for your visit
+
+# TECHNOLOGY COLOPHON
+
+    Python, Django, Django REST Framework
+    Docker, Ansible
+    NodeJS, D3.js, AngularJS, Vue.JS, ReatJS,
+    NPM, Webpack, Gulp, Grunt
+    SCSS, LESS, CSS3,
+    Web Components, HTML5
