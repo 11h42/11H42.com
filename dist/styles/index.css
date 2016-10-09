@@ -206,6 +206,9 @@ blockquote {
 #projets-overview + section .akemail img {
   width: 160px; }
 
+#projets-overview + section .apidae img {
+  width: 160px; }
+
 #avis-clients + section {
   padding-top: 4em; }
   #avis-clients + section .piled.segment {
@@ -224,5 +227,5 @@ blockquote {
 #notre-équipe + section .card .content > .circular.image {
   margin-bottom: 1rem; }
 
-#preva, #trace-etik, #trilogie-sante {
+#apidae, #preva, #trace-etik, #trilogie-sante {
   margin-top: 6em; }
