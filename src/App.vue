@@ -1,14 +1,22 @@
 <template>
     <div id="app">
         <navbar :items="navItems"></navbar>
+        <navbar-floating :items="navItems"></navbar-floating>
+        <navbar-mobile :items="navItems"></navbar-mobile>
 
     </div>
 </template>
 <script type="text/ecmascript-6">
+    import semanticUi from '../node_modules/semantic-ui/dist/semantic.min'
+    import Navbar from './components/navbar-top';
+    import NavbarFloating from './components/navbar-floating';
+    import NavbarMobile from './components/navbar-mobile';
 
     export default {
         components: {
             Navbar,
+            NavbarFloating,
+            NavbarMobile,
         },
         data () {
             return {
