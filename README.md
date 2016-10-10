@@ -1,5 +1,7 @@
 # 11h42.com
 
+> Accélérateur de projets près de Bordeaux
+
 ## Install
 
     npm install
@@ -9,6 +11,21 @@ N.B.: [`csscritic`](https://github.com/cburgmer/csscritic) require `libcairo-dev
 [libjpeg-dev]: https://github.com/cburgmer/csscritic/issues/70
 [libgif-dev]: https://github.com/cburgmer/csscritic/issues/69
 [node-canvas]: https://github.com/Automattic/node-canvas/issues/415#issuecomment-144279224
+
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+```
+
+For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 ## Tests
 
@@ -35,26 +52,6 @@ N.B.: [`csscritic`](https://github.com/cburgmer/csscritic) require `libcairo-dev
 ## License
 
 > The MIT License (MIT)
-> 
-> Copyright (c) 2014 11h42.com
-> 
-> Permission is hereby granted, free of charge, to any person obtaining a copy
-> of this software and associated documentation files (the "Software"), to deal
-> in the Software without restriction, including without limitation the rights
-> to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-> copies of the Software, and to permit persons to whom the Software is
-> furnished to do so, subject to the following conditions:
-> 
-> The above copyright notice and this permission notice shall be included in all
-> copies or substantial portions of the Software.
-> 
-> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-> IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-> FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-> AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-> LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-> OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-> SOFTWARE.
 
 
 [1]: localhost:5000/tests/visual-regression.html?mode=dev
