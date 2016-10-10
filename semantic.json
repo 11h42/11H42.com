@@ -2,10 +2,10 @@
   "base": "semantic/",
   "paths": {
     "source": {
-      "config": "src/theme.config",
-      "definitions": "src/definitions/",
-      "site": "src/site/",
-      "themes": "src/themes/"
+      "config": "semantic/theme.config",
+      "definitions": "semantic/definitions/",
+      "site": "semantic/site/",
+      "themes": "semantic/themes/"
     },
     "output": {
       "packaged": "dist/",
@@ -16,7 +16,9 @@
     "clean": "dist/"
   },
   "permission": false,
-  "rtl": "No",
+  "autoInstall": false,
+  "rtl": false,
+  "version": "2.2.4",
   "components": [
     "reset",
     "site",
@@ -41,6 +43,5 @@
     "api",
     "state",
     "visibility"
-  ],
-  "version": "2.1.8"
+  ]
 }
