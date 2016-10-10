@@ -1,0 +1,110 @@
+{
+  "name": "11h42.com",
+  "version": "0.1.0",
+  "description": "accélérateur de projets sur Bordeaux",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm-run-all clean prepare build:style build:app",
+    "build:app": "browserify -e ./app/index.js -o ./dist/app.js",
+    "build:production": "npm prune && npm install && npm run lint && npm test && npm run build",
+    "build:style": "npm run build:semantic-ui; npm run build:style-custom; npm run copy:style",
+    "build:style-custom": "node-sass -r assets/styles/index.scss dist/styles/index.css",
+    "build:semantic-ui": "gulp --gulpfile ./node_modules/semantic-ui/gulpfile.js build",
+    "copy:style": "copyfiles -u 2 semantic/dist/{**/,}*  semantic/dist/**/icons.* ./dist/styles",
+    "clean": "rimraf ./dist/**/*",
+    "lint": "jshint app/**",
+    "prepare": "mkdir -p ./dist",
+    "prestart": "npm run build",
+    "pretest": "npm install",
+    "screenshot": "node tests/screenshot.js",
+    "serve": "static -p ${PORT:-5000} --gzip --host-address 0.0.0.0 ./",
+    "start": "npm run serve",
+    "test": "mocha --compilers js:babel-core/register tests",
+    "test:html": "htmlhint --config htmlhintrc  *.html",
+    "watch": "PORT=${PORT:-5000} npm-run-all --parallel serve watch:app",
+    "watch:app": "watchify -dv -e ./app/index.js -o ./dist/app.js",
+    "watch:style": "node-sass -w -r assets/styles/index.scss dist/styles/index.css",
+    "watch:tests": "npm test -- -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/11h42/11H42.com.git"
+  },
+  "keywords": [
+    "accélérateur",
+    "projets",
+    "bordeaux",
+    "innovation"
+  ],
+  "author": [
+    "Akema <elopez@akema.fr>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/11h42/11H42.com/issues"
+  },
+  "homepage": "https://github.com/11h42/11H42.com#readme",
+  "devDependencies": {
+    "babel-core": "6.3.17",
+    "babel-eslint": "^5.0.0-beta6",
+    "babel-plugin-angular2-annotations": "3.0.x",
+    "babel-plugin-transform-class-properties": "6.3.x",
+    "babel-plugin-transform-decorators-legacy": "1.3.x",
+    "babel-plugin-transform-flow-strip-types": "6.3.x",
+    "babel-preset-es2015": "6.3.x",
+    "babelify": "7.2.x",
+    "babylon": "6.3.20",
+    "browserify": "latest",
+    "copyfiles": "0.2.x",
+    "csscritic": "https://github.com/cburgmer/csscritic.git",
+    "gulp": "3.9.x",
+    "htmlhint": "^0.9.13",
+    "jshint": "2.8.x",
+    "mocha": "2.3.x",
+    "node-sass": "^3.4.2",
+    "node-static": "0.7.x",
+    "npm-run-all": "1.4.x",
+    "pageres": "3.0.x",
+    "rimraf": "2.4.x",
+    "sassify": "0.9.x",
+    "semantic-ui": "2.1.x",
+    "watchify": "3.6.x"
+  },
+  "dependencies": {
+    "jquery": "latest",
+    "babel-polyfill": "^6.3.14",
+    "angular2": "^2.0.0-beta.0",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.13",
+    "reflect-metadata": "^0.1.2",
+    "rxjs": "^5.0.0-beta.0",
+    "zone.js": "^0.5.10"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015"
+          ],
+          "plugins": [
+            "angular2-annotations",
+            "transform-decorators-legacy",
+            "transform-class-properties",
+            "transform-flow-strip-types"
+          ]
+        }
+      ],
+      [
+        "sassify",
+        {
+          "auto-inject": true
+        }
+      ]
+    ]
+  },
+  "jshintConfig": {
+    "esnext": true
+  }
+}
