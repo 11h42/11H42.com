@@ -1,22 +1,29 @@
 <template>
-  <div id="app">
-    <img src="./assets/img/masthead/masthead.jpg">
-    <h1>{{ msg }}</h1>
-  </div>
-</template>
+    <div id="app">
+        <navbar :items="navItems"></navbar>
 
-<script>
-export default {
-  data () {
-    return {
-      msg: 'Hello Vue!'
+    </div>
+</template>
+<script type="text/ecmascript-6">
+
+    export default {
+        components: {
+            Navbar,
+        },
+        data () {
+            return {
+                navItems: [
+                    {'id': '#demarrez', 'label': 'Acceuil'},
+                    {'id': '#accelerez', 'label': 'Accélérez!'},
+                    {'id': '#projets-overview', 'label': 'Projets'},
+                    {'id': '#avis-clients', 'label': 'Clients'},
+                    {'id': '#notre-équipe', 'label': 'Équipe'},
+                    {'id': '#contact', 'label': 'Contact'}
+                ]
+            }
+        }
     }
-  }
-}
 </script>
 
 <style>
-body {
-  font-family: Helvetica, sans-serif;
-}
 </style>
