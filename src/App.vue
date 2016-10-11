@@ -24,6 +24,8 @@
 
             <avis-clients></avis-clients>
 
+            <nos-realisations></nos-realisations>
+
         </main>
         <analytics></analytics>
     </div>
@@ -37,6 +39,7 @@
     import MonIdee from './components/mon-idee'
     import Ensemble from './components/ensemble'
     import NosParticipations from './components/nos-participations'
+    import NosRealisations from './components/nos-realisations'
     import AvisClients from './components/avis-clients'
     import Analytics from './components/analytics'
 
@@ -50,6 +53,7 @@
             Ensemble,
             NosParticipations,
             AvisClients,
+            NosRealisations,
             Analytics
         },
         data () {
