@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="250"
+   height="250"
+   id="logo-11h42"
+   version="1.1"
+   inkscape:version="0.91 r"
+   sodipodi:docname="favicon.svg"
+   inkscape:export-filename="/home/elopez/projects/11H42.com/assets/img/favicon.png"
+   inkscape:export-xdpi="5.7600002"
+   inkscape:export-ydpi="5.7600002">
+  <title
+     id="title10207">11h42.com: accélérateur de projets, Bordeaux</title>
+  <defs
+     id="defs10209" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     showgrid="false"
+     fit-margin-top="25"
+     fit-margin-left="25"
+     fit-margin-right="25"
+     fit-margin-bottom="25"
+     inkscape:zoom="2.88"
+     inkscape:cx="260.24306"
+     inkscape:cy="138.88889"
+     inkscape:window-width="1680"
+     inkscape:window-height="1023"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="logo-11h42" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>11h42.com: accélérateur de projets, Bordeaux</dc:title>
+        <dc:date>2015-dec-04</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Akema SAS</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Akema.fr</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Akema.fr</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:source>http://11h42.com/</dc:source>
+        <dc:language>fr</dc:language>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>accélérateur</rdf:li>
+            <rdf:li>projets</rdf:li>
+            <rdf:li>web</rdf:li>
+            <rdf:li>javascript</rdf:li>
+            <rdf:li>python</rdf:li>
+            <rdf:li>bordeaux</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:description>11h42.com: accélérateur de projets web, Bordeaux</dc:description>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:prohibits
+           rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="logo"
+     transform="translate(-73.05721,16.254475)">
+    <g
+       id="clock"
+       transform="translate(0,-19.509955)">
+      <path
+         id="minutes-outline"
+         d="m 197.18457,28.25548 c -6.06705,0 -11.98589,0.585862 -17.75,1.625 l 2.375,9.65625 c 4.25447,-0.730094 8.59641,-1.168893 13.03125,-1.28125 0.77194,-0.01956 1.5671,0 2.34375,0 49.70563,0 90,40.294372 90,90 0,49.70563 -40.29437,90 -90,90 -38.96269,0 -72.10473,-24.76407 -84.625,-59.40625 l -9.84375,2.25 c 13.58364,39.10019 50.7402,67.15625 94.46875,67.15625 55.22847,0 100,-44.77152 100,-100 0,-55.228477 -44.77153,-100 -100,-100 z"
+         style="fill:#22508f;fill-opacity:0.94117647;fill-rule:nonzero;stroke:none"
+         inkscape:connector-curvature="0" />
+      <path
+         id="hours-outline"
+         d="m 173.30721,31.757732 c -43.24651,11.02144 -75.25,50.22806 -75.25,96.906248 0,8.40514 1.04702,16.57521 3,24.375 l 9.84375,-1.90625 c -1.84486,-7.1804 -2.84375,-14.71272 -2.84375,-22.46875 0,-42.039858 28.84909,-77.328138 67.8125,-87.218748 l -2.5625,-9.6875 z"
+         style="fill:#ff6600;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:connector-curvature="0" />
+      <path
+         id="minutes-remaining"
+         d="m 177.6373,50.770714 c -34.50797,8.878507 -60.03125,40.22078 -60.03125,77.499996 0,6.70365 0.85307,13.18364 2.40625,19.40625 L 197.23105,128.20821 177.6998,50.770714 c -0.0196,0.005 -0.0429,-0.005 -0.0625,0 z"
+         style="fill:#ff6600;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>
