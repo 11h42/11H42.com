@@ -86,6 +86,17 @@
                         callToAction: {class: 'primary basic', label: 'Découvrir Akemail'}
                     },
                     {
+                        id: 'jepilote',
+                        name: 'Je pilote mon entreprise',
+                        title: 'Je pilote mon entreprise',
+                        image: 'assets/images/customers/logo-jepilote.png',
+                        website: 'http://www.jepilotemonentreprise.com/',
+                        tags: ['gestion', 'entreprise'],
+                        description: `
+                                <p>Tout ce dont vous avez besoin pour gérer votre entreprise avec un logiciel de gestion en ligne gratuit et facile à utiliser.</p>
+                            `
+                    },
+                    {
                         id: 'apidae',
                         name: 'Apidae',
                         title: `Apidae: <abbr title="Suivi d’activité">CRA</abbr>, congés/absences et notes de frais`,
