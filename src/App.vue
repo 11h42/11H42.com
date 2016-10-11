@@ -33,7 +33,8 @@
     </div>
 </template>
 <script type="text/ecmascript-6">
-    import semanticUi from '../node_modules/semantic-ui/dist/semantic.min'
+
+
     import Navbar from './components/navbar-top';
     import NavbarFloating from './components/navbar-floating';
     import NavbarMobile from './components/navbar-mobile';
@@ -76,7 +77,27 @@
 </script>
 
 <style>
-    @import '../node_modules/semantic-ui/dist/semantic.min.css';
+    @import '../node_modules/semantic-ui/dist/components/reset.css';
+    @import '../node_modules/semantic-ui/dist/components/site.css';
+    @import '../node_modules/semantic-ui/dist/components/button.css';
+    @import '../node_modules/semantic-ui/dist/components/container.css';
+    @import '../node_modules/semantic-ui/dist/components/divider.css';
+    @import '../node_modules/semantic-ui/dist/components/header.css';
+    @import '../node_modules/semantic-ui/dist/components/icon.css';
+    @import '../node_modules/semantic-ui/dist/components/image.css';
+    @import '../node_modules/semantic-ui/dist/components/label.css';
+    @import '../node_modules/semantic-ui/dist/components/list.css';
+    @import '../node_modules/semantic-ui/dist/components/segment.css';
+    @import '../node_modules/semantic-ui/dist/components/step.css';
+    @import '../node_modules/semantic-ui/dist/components/grid.css';
+    @import '../node_modules/semantic-ui/dist/components/menu.css';
+    @import '../node_modules/semantic-ui/dist/components/card.css';
+    @import '../node_modules/semantic-ui/dist/components/item.css';
+    @import '../node_modules/semantic-ui/dist/components/embed.css';
+    @import '../node_modules/semantic-ui/dist/components/sidebar.css';
+    @import '../node_modules/semantic-ui/dist/components/sticky.css';
+    @import '../node_modules/semantic-ui/dist/components/transition.css';
+
     @import "assets/styles/semantic-ui-helpers.css";
 
     .ui.vertical.segment {
