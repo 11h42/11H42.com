@@ -49,7 +49,7 @@
                     {'id': '#avis-clients', 'label': 'Clients'},
                     {'id': '#notre-équipe', 'label': 'Équipe'},
                     {'id': '#contact', 'label': 'Contact'}
-                ]
+                ],
             }
         }
     }

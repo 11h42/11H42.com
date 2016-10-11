@@ -1,5 +1,4 @@
 <template>
-    <!-- Following Menu -->
     <nav class="ui large top fixed hidden menu inverted">
         <ul class="ui container">
             <li class="item" v-for="item in items">
