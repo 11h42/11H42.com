@@ -1,7 +1,7 @@
 <template>
     <article>
         <h3 class="ui inverted header">
-            <i class="fa fa-fw fa-home" aria-hidden="true"></i>
+            <i class="fitted home icon" aria-hidden="true"></i>
             Nos Bureaux
         </h3>
         <div class="three wide column">
@@ -16,7 +16,7 @@
             </div>
 
             <h3 class="ui inverted header">
-                <i class="fa fa-fw fa-clock-o" aria-hidden="true"></i>
+                <i class="fitted wait icon" aria-hidden="true"></i>
                 Horaires
             </h3>
             <div xmlns:gr="http://purl.org/goodrelations/v1#" rel="gr:hasOpeningHoursSpecification">

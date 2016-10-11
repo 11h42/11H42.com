@@ -1,7 +1,7 @@
 <template>
     <article>
         <h3 class="ui inverted header">
-            <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i>
+            <i class="fitted marker icon" aria-hidden="true"></i>
             Plan d'accès
         </h3>
         <div id="map" class="ui embed"
