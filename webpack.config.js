@@ -19,7 +19,7 @@ module.exports = {
         loaders: [
             {test: /\.vue$/, loader: 'vue'},
             {test: /\.js$/, loader: 'babel', exclude: /node_modules/},
-            {test: /\.css$/, loader: ['style', 'css']},
+            {test: /\.css$/, loaders: ['style', 'css']},
             {test: /\.(png|jpg|gif|svg)$/, loader: 'file', query: {name: '[name].[ext]?[hash]'}},
             {
                 test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
