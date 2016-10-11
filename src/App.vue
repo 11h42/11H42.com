@@ -21,6 +21,9 @@
             </section>
 
             <nos-participations></nos-participations>
+
+            <avis-clients></avis-clients>
+
         </main>
         <analytics></analytics>
     </div>
@@ -34,7 +37,8 @@
     import MonIdee from './components/mon-idee'
     import Ensemble from './components/ensemble'
     import NosParticipations from './components/nos-participations'
-        import Analytics from './components/analytics'
+    import AvisClients from './components/avis-clients'
+    import Analytics from './components/analytics'
 
     export default {
         components: {
@@ -45,6 +49,7 @@
             MonIdee,
             Ensemble,
             NosParticipations,
+            AvisClients,
             Analytics
         },
         data () {
