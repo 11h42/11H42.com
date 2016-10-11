@@ -13,13 +13,13 @@
                         <a class="ui small image" :href="project.website">
                             <img class="ui avatar image"
                                  :src="resolvePath(project.image)"
-                                 :alt="project.altText"
+                                 :alt="project.title"
                                  role="presentation"
                             >
                         </a>
                         <div class="content">
                             <h4 class="header">
-                                <span v-html="project.header"></span>
+                                <span v-html="project.title"></span>
                             </h4>
                             <div class="description">
                                 <span v-html="project.description"></span>

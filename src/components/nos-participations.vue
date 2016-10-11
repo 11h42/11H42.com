@@ -14,12 +14,12 @@
                             <a :href="'#' + project.id" class="center-avatar">
                                 <img class="ui centered image"
                                      :src="resolvePath(project.image)"
-                                     :alt="project.altText"
+                                     :alt="project.title"
                                 >
                             </a>
                         </div>
                         <div class="content">
-                            <a :href="project.id" class="meta">{{project.label}}</a>
+                            <a :href="project.id" class="meta">{{project.name}}</a>
                         </div>
                     </div>
                 </div>

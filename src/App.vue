@@ -74,10 +74,9 @@
                 projects: [
                     {
                         id: 'akemail',
-                        label: 'Akemail',
-                        altText: 'Akemail (envoi d\'e-mail)',
+                        name: 'Akemail',
+                        title: 'Akemail: solution d\'emailing',
                         image: 'assets/images/customers/akemail-logo.png',
-                        header: 'Akemail: solution d\'emailing',
                         website: 'http://www.akemail.fr/',
                         tags: ['emailing', 'webapp'],
                         description: `
@@ -88,10 +87,9 @@
                     },
                     {
                         id: 'apidae',
-                        label: 'Apidae',
-                        altText: 'Apidae (solutions SIRH)',
+                        name: 'Apidae',
+                        title: `Apidae: <abbr title="Suivi d’activité">CRA</abbr>, congés/absences et notes de frais`,
                         image: 'assets/images/customers/apidae-logo.png',
-                        header: `Apidae: <abbr title="Suivi d’activité">CRA</abbr>, congés/absences et notes de frais`,
                         website: 'http://www.apidae.biz/',
                         tags: ['RH', 'webapp'],
                         description: `
@@ -106,10 +104,9 @@
                     },
                     {
                         id: 'preva',
-                        label: 'Preva',
-                        altText: 'Preva (prévention du risque)',
+                        name: 'Preva',
+                        title: 'PREVA: Évaluation et Prévention du risque en entreprise',
                         image: 'assets/images/customers/preva-logo.png',
-                        header: 'PREVA: Évaluation et Prévention du risque en entreprise',
                         website: 'http://www.preva.fr/',
                         tags: ['risque', 'document unique', 'webapp'],
                         description: `
@@ -120,12 +117,11 @@
                     },
                     {
                         id: 'trace-etik',
-                        label: 'Trace Etik',
-                        altText: 'Trace-Etik (traçabilité et anti-contrefaçon)',
+                        name: 'Trace Etik',
+                        title: 'Trace Etik: anti-contrefaçon, traçabilité &amp; marketing',
                         image: 'assets/images/customers/trace-etik-logo.png',
-                        header: 'Trace Etik: anti-contrefaçon, traçabilité &amp; marketing',
                         website: 'http://www.trace-etik.com/',
-                        tags: ['traçabilité', 'anti-conntrefaçon'],
+                        tags: ['traçabilité', 'anti-conntrefaçon', 'vins'],
                         description: `
                                 <p>Solution de traçabilité pour le secteur viticole.</p>
                                 <p>Le dispositif anticontrefaçon directement imprimable sur vos contre-étiquettes</p>
@@ -133,12 +129,11 @@
                     },
                     {
                         id: 'trilogie-sante',
-                        label: 'Trilogie Santé',
-                        altText: 'triologie santé (événementielle)',
+                        name: 'Trilogie Santé',
+                        title: 'Trilogie Santé: Organisation de congrès',
                         image: 'assets/images/customers/trilogie-sante-logo.png',
-                        header: 'Trilogie Santé: Organisation de congrès',
                         website: 'http://www.trilogie-sante.com/',
-                        tags: ['santé', 'formation'],
+                        tags: ['santé', 'formation', 'emailing'],
                         description: `
                                 <p>Spécialisée dans le secteur d'activité de l'organisation de foires, salons
                                     professionnels
