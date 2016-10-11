@@ -44,6 +44,7 @@
     import NoteEquipe from './components/note-equipe'
     import NosRealisations from './components/nos-realisations'
     import AvisClients from './components/avis-clients'
+    import MyFooter from './components/footer'
     import Analytics from './components/analytics'
 
     export default {
