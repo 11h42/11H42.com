@@ -6,7 +6,7 @@
                 <span class="text">Nos participations</span>
             </a>
         </h4>
-        <section class="ui vertical stripe segment nos-participations">
+        <section class="ui vertical stripe segment">
             <div class="ui centered grid text container">
                 <div class="ui three stackable cards centered aligned">
                     <div class="ui centered no-border card">
