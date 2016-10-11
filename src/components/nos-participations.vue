@@ -13,7 +13,7 @@
                         <div :class="['image', project.id]">
                             <a :href="'#' + project.id" class="center-avatar">
                                 <img class="ui centered image"
-                                     :src="resolve(project.image)"
+                                     :src="resolvePath(project.image)"
                                      :alt="project.altText"
                                 >
                             </a>
@@ -28,15 +28,14 @@
     </div>
 </template>
 <script type="text/ecmascript-6">
+        import helpers from '../helpers'
+
     export default{
         props: {
-            projects: {type: Object, required: true}
+            projects: {type: Array, required: true}
         },
         methods: {
-            resolve: function (image) {
-                console.log(image);
-                return require('../' + image)
-            }
+            resolvePath:helpers.resolvePath
         }
     }
 </script>

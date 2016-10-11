@@ -23,7 +23,7 @@
 
             <avis-clients></avis-clients>
 
-            <nos-realisations></nos-realisations>
+            <nos-realisations :projects="projects"></nos-realisations>
 
             <note-equipe></note-equipe>
 
@@ -72,36 +72,79 @@
                 ],
                 projects: [
                     {
-                        id: 'trilogie-sante',
-                        label: 'Trilogie Santé',
-                        altText: 'triologie santé (événementielle)',
-                        image: 'assets/images/customers/trilogie-sante-logo.png',
-                    },
-                    {
-                        id: 'preva',
-                        label: 'Preva',
-                        altText: 'Preva (prévention du risque)',
-                        image: 'assets/images/customers/preva-logo.png',
-                    },
-
-                    {
-                        id: 'trace-etik',
-                        label: 'Trace Etik',
-                        altText: 'Trace-Etik (traçabilité et anti-contrefaçon)',
-                        image: 'assets/images/customers/trace-etik-logo.png',
-                    },
-                    {
                         id: 'akemail',
                         label: 'Akemail',
                         altText: 'Akemail (envoi d\'e-mail)',
                         image: 'assets/images/customers/akemail-logo.png',
+                        header: 'Akemail: solution d\'emailing',
+                        website: 'http://www.akemail.fr/',
+                        tags: ['emailing', 'webapp'],
+                        description: `
+                                <p>Gérez l’envoi et le suivi de vos emails pour vos applications web et plateformes de
+                                    commerce en ligne.</p>
+                            `,
+                        callToAction: {class: 'primary basic', label: 'Découvrir Akemail'}
                     },
                     {
                         id: 'apidae',
                         label: 'Apidae',
                         altText: 'Apidae (solutions SIRH)',
                         image: 'assets/images/customers/apidae-logo.png',
-                    }
+                        header: `Apidae: <abbr title="Suivi d’activité">CRA</abbr>, congés/absences et notes de frais`,
+                        website: 'http://www.apidae.biz/',
+                        tags: ['RH', 'webapp'],
+                        description: `
+                                <p>Plus de prise de tête : déclarez votre activité au jour le jour en toute
+                                    simplicité.</p>
+                                <p>En quelques clics demandez vos congés et recevez la réponse par email dès que votre
+                                    manager a répondu.</p>
+                                <p>Sur votre smartphone à la fin du repas avec votre client envoyez la note de frais à
+                                    votre employeur.</p>
+                            `,
+                        callToAction: {class: 'secondary basic', label: 'Voir l\'application'}
+                    },
+                    {
+                        id: 'preva',
+                        label: 'Preva',
+                        altText: 'Preva (prévention du risque)',
+                        image: 'assets/images/customers/preva-logo.png',
+                        header: 'PREVA: Évaluation et Prévention du risque en entreprise',
+                        website: 'http://www.preva.fr/',
+                        tags: ['risque', 'document unique', 'webapp'],
+                        description: `
+                                <p>Outils d'élaboration du document unique pour les entreprises et les
+                                    collectivités.</p>
+                                <p>Il facilite l'élaboration du document unique et des plans de prévention.</p>
+                            `
+                    },
+                    {
+                        id: 'trace-etik',
+                        label: 'Trace Etik',
+                        altText: 'Trace-Etik (traçabilité et anti-contrefaçon)',
+                        image: 'assets/images/customers/trace-etik-logo.png',
+                        header: 'Trace Etik: anti-contrefaçon, traçabilité &amp; marketing',
+                        website: 'http://www.trace-etik.com/',
+                        tags: ['traçabilité', 'anti-conntrefaçon'],
+                        description: `
+                                <p>Solution de traçabilité pour le secteur viticole.</p>
+                                <p>Le dispositif anticontrefaçon directement imprimable sur vos contre-étiquettes</p>
+                            `
+                    },
+                    {
+                        id: 'trilogie-sante',
+                        label: 'Trilogie Santé',
+                        altText: 'triologie santé (événementielle)',
+                        image: 'assets/images/customers/trilogie-sante-logo.png',
+                        header: 'Trilogie Santé: Organisation de congrès',
+                        website: 'http://www.trilogie-sante.com/',
+                        tags: ['santé', 'formation'],
+                        description: `
+                                <p>Spécialisée dans le secteur d'activité de l'organisation de foires, salons
+                                    professionnels
+                                    et congrès dans le domaine de la santé.</p>
+                                <p><b>Akemail</b> est leur outil principal pour la gestion de leurs campagnes mails.</p>
+                            `
+                    },
                 ]
             }
         }
