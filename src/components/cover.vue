@@ -39,7 +39,7 @@
 </template>
 <style>
     #demarrez {
-        background: url('../assets/img/masthead/masthead.jpg');
+        background: url('../assets/images/masthead/masthead.jpg');
     }
 
     .cover .header {

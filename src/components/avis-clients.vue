@@ -37,7 +37,7 @@
                                 </blockquote>
                                 <p class="meta">
                                     <img class="ui avatar image"
-                                         src="../assets/img/customers/preva-ceo.jpg"
+                                         src="../assets/images/customers/preva-ceo.jpg"
                                          alt=""
                                          role="presentation"
                                     >
@@ -60,7 +60,7 @@
                                 </blockquote>
                                 <p class="meta">
                                     <img class="ui avatar image"
-                                         src="../assets/img/customers/trilogie-sante-responsable-logistique.jpg"
+                                         src="../assets/images/customers/trilogie-sante-responsable-logistique.jpg"
                                          role="presentation"
                                          alt=""
                                     >

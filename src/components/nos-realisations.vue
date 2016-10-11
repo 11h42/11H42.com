@@ -12,7 +12,7 @@
                     <div id="akemail" class="item">
                         <a class="ui small image" href="http://akemail.fr">
                             <img class="ui avatar image"
-                                 src="../assets/img/customers/akemail-logo.png"
+                                 src="../assets/images/customers/akemail-logo.png"
                                  alt="logo Akemail"
                                  role="presentation"
                             >
@@ -40,7 +40,7 @@
                     <div class="item">
                         <a class="ui small image" href="http://www.apidae.fr/">
                             <img class="ui avatar image"
-                                 src="../assets/img/customers/apidae-logo.png"
+                                 src="../assets/images/customers/apidae-logo.png"
                                  alt="logo Preva"
                                  role="presentation"
                             >
@@ -72,7 +72,7 @@
                     <div class="item">
                         <a class="ui small image" href="http://www.preva.fr/">
                             <img class="ui avatar image"
-                                 src="../assets/img/customers/preva-logo.png"
+                                 src="../assets/images/customers/preva-logo.png"
                                  alt="logo Preva"
                                  role="presentation"
                             >
@@ -100,7 +100,7 @@
                     <div class="item">
                         <a class="ui small image" href="http://trace-etik.com/">
                             <img class="ui avatar image"
-                                 src="../assets/img/customers/trace-etik-logo.png"
+                                 src="../assets/images/customers/trace-etik-logo.png"
                                  alt="logo Trace-Etik"
                                  role="presentation"
                             >
@@ -127,7 +127,7 @@
                     <div class="item">
                         <a class="ui small image" href="http://www.trilogie-sante.com/">
                             <img class="ui avatar image"
-                                 src="../assets/img/customers/trilogie-sante-logo.png"
+                                 src="../assets/images/customers/trilogie-sante-logo.png"
                                  alt="logo Trilogie Santé"
                                  role="presentation"
                             >

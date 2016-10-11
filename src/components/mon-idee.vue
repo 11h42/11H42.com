@@ -32,7 +32,7 @@
         </div>
         <div class="six wide right floated column">
             <img class="ui large bordered rounded image"
-                 src="../assets/img/11h42-workflow-travail-d'equipe.jpg"
+                 src="../assets/images/11h42-workflow-travail-d'equipe.jpg"
                  alt="travail d'équipe"
             />
         </div>
