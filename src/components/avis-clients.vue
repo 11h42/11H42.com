@@ -77,24 +77,24 @@
 </template>
 <style>
     #avis-clients + section {
-    padding-top: 4em;
-}
+        padding-top: 4em;
+    }
 
-#avis-clients + section .piled.segment {
-    margin: 2em 0;
-}
+    #avis-clients + section .piled.segment {
+        margin: 2em 0;
+    }
 
-#avis-clients + section blockquote:before {
-    font-family: 'Icons';
-    content: "\f10d";
-    font-size: 4em;
-    float: left;
-    color: #DCDDDE;
-    margin-left: 0;
-    padding-right: 1rem;
-}
+    #avis-clients + section blockquote:before {
+        font-family: 'Icons';
+        content: "\f10d";
+        font-size: 4em;
+        float: left;
+        color: #DCDDDE;
+        margin-left: 0;
+        padding-right: 1rem;
+    }
 
-#avis-clients + section blockquote > h3 {
-    font-style: italic;
-}
+    #avis-clients + section blockquote > h3 {
+        font-style: italic;
+    }
 </style>
