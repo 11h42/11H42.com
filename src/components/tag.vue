@@ -1,5 +1,5 @@
 <template>
-     <a class="ui label">
+     <span class="ui label">
         <slot></slot>
-  </a>
+    </span>
 </template>
