@@ -1,6 +1,5 @@
 <template>
     <div id="app">
-        <navbar :items="navItems"></navbar>
         <navbar-floating :items="navItems"></navbar-floating>
         <navbar-mobile :items="navItems"></navbar-mobile>
 
@@ -11,7 +10,7 @@
             <small slot="header-subtitle">3 logiciels RH en <b>1</b>.</small>
         </cover>
 
-        <main>
+        <main class="pusher">
             <section id="accelerez" class="ui vertical stripe segment">
                 <div class="ui middle aligned stackable grid container">
                     <mon-idee></mon-idee>
@@ -29,12 +28,12 @@
             <note-equipe></note-equipe>
 
         </main>
+
+        <my-footer></my-footer>
         <analytics></analytics>
     </div>
 </template>
 <script type="text/ecmascript-6">
-
-
     import Navbar from './components/navbar-top';
     import NavbarFloating from './components/navbar-floating';
     import NavbarMobile from './components/navbar-mobile';
