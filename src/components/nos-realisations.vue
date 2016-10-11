@@ -149,3 +149,8 @@
         </section>
     </div>
 </template>
+<style>
+    #apidae, #preva, #trace-etik, #trilogie-sante {
+        margin-top: 6em;
+    }
+</style>

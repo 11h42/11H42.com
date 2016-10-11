@@ -42,7 +42,7 @@
 </script>
 <style>
     .footer.segment {
-        padding: 5em 0;
+        padding: 3rem 0 1rem;
     }
 
     .footer.segment address {
