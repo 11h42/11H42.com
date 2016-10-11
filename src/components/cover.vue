@@ -7,7 +7,7 @@
                 </a>
                 <a class="active item" href="#demarrez">Acceuil</a>
                 <a class="item" href="#accelerez">Accélérez!</a>
-                <a class="item" href="#projets-overview">Projets</a>
+                <a class="item" href="#nos-participations">Projets</a>
                 <a class="item" href="#avis-clients">Clients</a>
                 <a class="item" href="#notre-équipe">Équipe</a>
                 <a class="item" href="#contact">Contact</a>

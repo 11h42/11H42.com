@@ -19,6 +19,8 @@
                     <ensemble></ensemble>
                 </div>
             </section>
+
+            <nos-participations></nos-participations>
         </main>
     </div>
 </template>
@@ -30,6 +32,7 @@
     import Cover from './components/cover'
     import MonIdee from './components/mon-idee'
     import Ensemble from './components/ensemble'
+    import NosParticipations from './components/nos-participations'
 
     export default {
         components: {
@@ -38,14 +41,15 @@
             NavbarMobile,
             Cover,
             MonIdee,
-            Ensemble
+            Ensemble,
+            NosParticipations
         },
         data () {
             return {
                 navItems: [
                     {'id': '#demarrez', 'label': 'Acceuil'},
                     {'id': '#accelerez', 'label': 'Accélérez!'},
-                    {'id': '#projets-overview', 'label': 'Projets'},
+                    {'id': '#nos-participations', 'label': 'Projets'},
                     {'id': '#avis-clients', 'label': 'Clients'},
                     {'id': '#notre-équipe', 'label': 'Équipe'},
                     {'id': '#contact', 'label': 'Contact'}
@@ -58,8 +62,42 @@
 <style>
     @import '../node_modules/semantic-ui/dist/semantic.min.css';
 
+    .ui.vertical.segment {
+        border-bottom: none;
+    }
+
+    .ui.vertical.stripe {
+        padding: 4em 0 8em;
+    }
+
+    .ui.vertical.stripe h3 {
+        font-size: 1.5em;
+    }
+
+    .ui.vertical.stripe p {
+        font-size: 1.33em;
+    }
+
     #accelerez #ensemble {
         margin-top: 4em;
     }
 
+    .center-avatar {
+        display: flex;
+        align-items: center;
+        align-content: center;
+    }
+
+    .cards .no-border.card,
+    .cards .no-border.card:hover,
+    .link.cards .no-border.card:hover {
+        border-color: transparent;
+        box-shadow: 0 1px 3px 0 transparent, 0 0 0 1px transparent;
+    }
+
+    .cards .no-border.card .image,
+    .cards .no-border.card:hover .image,
+    .link.cards .no-border.card:hover .image {
+        background-color: transparent;
+    }
 </style>
