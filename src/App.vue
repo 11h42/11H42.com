@@ -20,7 +20,7 @@
                 </div>
             </section>
 
-            <nos-participations></nos-participations>
+            <nos-participations :projects="projects"></nos-participations>
 
             <avis-clients></avis-clients>
 
@@ -71,6 +71,39 @@
                     {'id': '#notre-équipe', 'label': 'Équipe'},
                     {'id': '#contact', 'label': 'Contact'}
                 ],
+                projects: [
+                    {
+                        id: 'trilogie-sante',
+                        label: 'Trilogie Santé',
+                        altText: 'triologie santé (événementielle)',
+                        image: 'assets/images/customers/trilogie-sante-logo.png',
+                    },
+                    {
+                        id: 'preva',
+                        label: 'Preva',
+                        altText: 'Preva (prévention du risque)',
+                        image: 'assets/images/customers/preva-logo.png',
+                    },
+
+                    {
+                        id: 'trace-etik',
+                        label: 'Trace Etik',
+                        altText: 'Trace-Etik (traçabilité et anti-contrefaçon)',
+                        image: 'assets/images/customers/trace-etik-logo.png',
+                    },
+                    {
+                        id: 'akemail',
+                        label: 'Akemail',
+                        altText: 'Akemail (envoi d\'e-mail)',
+                        image: 'assets/images/customers/akemail-logo.png',
+                    },
+                    {
+                        id: 'apidae',
+                        label: 'Apidae',
+                        altText: 'Apidae (solutions SIRH)',
+                        image: 'assets/images/customers/apidae-logo.png',
+                    }
+                ]
             }
         }
     }
