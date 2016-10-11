@@ -4,6 +4,13 @@
         <navbar-floating :items="navItems"></navbar-floating>
         <navbar-mobile :items="navItems"></navbar-mobile>
 
+        <cover class="masthead">
+            <span slot="header" class="m-x-auto ">
+                Solution <abbr title="Système d'information de gestion des ressources humaines">SIRH</abbr>
+            </span>
+            <small slot="header-subtitle">3 logiciels RH en <b>1</b>.</small>
+        </cover>
+
     </div>
 </template>
 <script type="text/ecmascript-6">
@@ -17,6 +24,7 @@
             Navbar,
             NavbarFloating,
             NavbarMobile,
+            Cover,
         },
         data () {
             return {
