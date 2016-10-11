@@ -73,6 +73,7 @@
 
 <style>
     @import '../node_modules/semantic-ui/dist/semantic.min.css';
+    @import "assets/styles/semantic-ui-helpers.css";
 
     .ui.vertical.segment {
         border-bottom: none;
