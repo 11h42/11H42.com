@@ -22,6 +22,7 @@
 
             <nos-participations></nos-participations>
         </main>
+        <analytics></analytics>
     </div>
 </template>
 <script type="text/ecmascript-6">
@@ -33,6 +34,7 @@
     import MonIdee from './components/mon-idee'
     import Ensemble from './components/ensemble'
     import NosParticipations from './components/nos-participations'
+        import Analytics from './components/analytics'
 
     export default {
         components: {
@@ -43,6 +45,7 @@
             MonIdee,
             Ensemble,
             NosParticipations
+            Analytics
         },
         data () {
             return {
