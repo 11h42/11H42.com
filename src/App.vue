@@ -44,7 +44,7 @@
             Cover,
             MonIdee,
             Ensemble,
-            NosParticipations
+            NosParticipations,
             Analytics
         },
         data () {

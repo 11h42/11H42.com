@@ -80,15 +80,15 @@
     </div>
 </template>
 <style>
-    .nos-participations .card > .image > a {
+    #nos-participations + section .card > .image > a {
         height: 200px;
     }
 
-    .nos-participations .akemail img {
+    #nos-participations + section .akemail img {
         width: 160px;
     }
 
-    .nos-participations .apidae img {
+    #nos-participations + section .apidae img {
         width: 160px;
     }
 
