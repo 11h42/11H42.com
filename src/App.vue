@@ -11,6 +11,15 @@
             <small slot="header-subtitle">3 logiciels RH en <b>1</b>.</small>
         </cover>
 
+        <main>
+            <section id="accelerez" class="ui vertical stripe segment">
+                <div class="ui middle aligned stackable grid container">
+                    <mon-idee></mon-idee>
+                    <div class="ui divider"></div>
+                    <ensemble></ensemble>
+                </div>
+            </section>
+        </main>
     </div>
 </template>
 <script type="text/ecmascript-6">
@@ -18,6 +27,9 @@
     import Navbar from './components/navbar-top';
     import NavbarFloating from './components/navbar-floating';
     import NavbarMobile from './components/navbar-mobile';
+    import Cover from './components/cover'
+    import MonIdee from './components/mon-idee'
+    import Ensemble from './components/ensemble'
 
     export default {
         components: {
@@ -25,6 +37,8 @@
             NavbarFloating,
             NavbarMobile,
             Cover,
+            MonIdee,
+            Ensemble
         },
         data () {
             return {
@@ -43,4 +57,9 @@
 
 <style>
     @import '../node_modules/semantic-ui/dist/semantic.min.css';
+
+    #accelerez #ensemble {
+        margin-top: 4em;
+    }
+
 </style>
