@@ -58,6 +58,7 @@
             AvisClients,
             NosRealisations,
             NoteEquipe,
+            MyFooter,
             Analytics
         },
         data () {
