@@ -97,7 +97,6 @@
     @import '../node_modules/semantic-ui/dist/components/sidebar.css';
     @import '../node_modules/semantic-ui/dist/components/sticky.css';
     @import '../node_modules/semantic-ui/dist/components/transition.css';
-
     @import "assets/styles/semantic-ui-helpers.css";
 
     .ui.vertical.segment {
@@ -116,7 +115,7 @@
         font-size: 1.33em;
     }
 
-    #accelerez #ensemble {
+    #ensemble {
         margin-top: 4em;
     }
 
@@ -124,6 +123,18 @@
         display: flex;
         align-items: center;
         align-content: center;
+    }
+
+    .divider.header .text, .divider.header .icon {
+        color: #999;
+    }
+
+    .divider.header:hover .text {
+        color: #1e70bf;
+    }
+
+    .divider.header .icon {
+        padding-right: .25em;
     }
 
     .cards .no-border.card,
