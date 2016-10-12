@@ -180,7 +180,6 @@
     @import '../node_modules/semantic-ui/dist/components/menu.css';
     @import '../node_modules/semantic-ui/dist/components/card.css';
     @import '../node_modules/semantic-ui/dist/components/item.css';
-    @import '../node_modules/semantic-ui/dist/components/embed.css';
     @import '../node_modules/semantic-ui/dist/components/sidebar.css';
     @import '../node_modules/semantic-ui/dist/components/sticky.css';
     @import '../node_modules/semantic-ui/dist/components/transition.css';
