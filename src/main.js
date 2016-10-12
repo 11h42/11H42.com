@@ -2,6 +2,7 @@
 // import './custom'
 
 import 'semantic-ui/dist/semantic';
+import './custom';
 import 'semantic-ui/dist/components/api'
 import 'semantic-ui/dist/components/state'
 import 'semantic-ui/dist/components/visibility'
