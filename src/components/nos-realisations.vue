@@ -9,7 +9,7 @@
         <section class="ui vertical stripe container segment">
             <div class="ui text container">
                 <div class="ui items">
-                    <article :id="project.id" v-for="project in projects" class="item">
+                    <article :id="project.id" v-for="project in projects" class="item add-scape-top">
                         <a class="ui small image" :href="project.website">
                             <img class="ui avatar image"
                                  :src="resolvePath(project.image)"
@@ -62,7 +62,10 @@
     }
 </script>
 <style>
-    #apidae, #preva, #trace-etik, #trilogie-sante {
-        margin-top: 6em;
+    .ui.items > .item.add-scape-top {
+        margin-top: 8rem;
+    }
+    .ui.items > .item.add-scape-top:first-child {
+        margin-top: 6rem;
     }
 </style>
