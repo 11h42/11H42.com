@@ -3,7 +3,7 @@
         <navbar-floating :items="navItems"></navbar-floating>
         <navbar-mobile :items="navItems"></navbar-mobile>
 
-        <cover class="masthead">
+        <cover>
             <span slot="header" class="m-x-auto ">
                 Solution <abbr title="Système d'information de gestion des ressources humaines">SIRH</abbr>
             </span>

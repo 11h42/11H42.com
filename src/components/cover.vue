@@ -39,19 +39,14 @@
 </template>
 <style>
     #demarrez {
+        background-size: cover;
         background: url('../assets/images/masthead/masthead.jpg');
+        min-height: 90vh;
+        padding: 1em 0;
     }
 
     .cover .header {
         text-shadow: 2px 2px 2px #666;
-    }
-
-    .cover.segment {
-        min-height: 70vh;
-        padding: 1em 0;
-        /*background-size: cover;*/
-        /*height: 80vh;*/
-        /*position: relative;*/
     }
 
     .cover .logo.item img {
@@ -63,14 +58,9 @@
     }
 
     .cover h1.ui.header {
-        margin-top: 3em;
+        margin-top: 25vh;
         margin-bottom: 0;
-        font-size: 4em;
-        font-weight: normal;
-    }
-
-    .cover h2 {
-        font-size: 1.7em;
+        font-size: 4.5rem;
         font-weight: normal;
     }
 
@@ -82,11 +72,6 @@
         .cover h1.ui.header {
             font-size: 2em;
             margin-top: 1.5em;
-        }
-
-        .cover h2 {
-            margin-top: 0.5em;
-            font-size: 1.5em;
         }
     }
 
