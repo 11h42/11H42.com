@@ -10,6 +10,7 @@
             <small slot="header-subtitle">3 logiciels RH en <b>1</b>.</small>
         </cover>
 
+        <continue target="#accelerez"></continue>
         <main class="pusher">
             <section id="accelerez" class="ui vertical stripe segment">
                 <div class="ui middle aligned stackable grid container">
@@ -46,6 +47,8 @@
     import AvisClients from './components/avis-clients'
     import MyFooter from './components/footer'
     import Analytics from './components/analytics'
+        import Continue from './components/continue.vue';
+
 
     export default {
         components: {
@@ -59,6 +62,7 @@
             AvisClients,
             NosRealisations,
             NoteEquipe,
+            Continue,
             MyFooter,
             Analytics
         },
