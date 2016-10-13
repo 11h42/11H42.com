@@ -1,18 +1,6 @@
 <template>
     <section id="demarrez" class="ui inverted vertical cover center aligned segment">
-        <div class="ui container">
-            <div class="ui large secondary inverted pointing menu">
-                <a class="toc item">
-                    <i class="sidebar icon"></i>
-                </a>
-                <a class="active item" href="#demarrez">Acceuil</a>
-                <a class="item" href="#accelerez">Accélérez!</a>
-                <a class="item" href="#nos-participations">Projets</a>
-                <a class="item" href="#avis-clients">Clients</a>
-                <a class="item" href="#notre-équipe">Équipe</a>
-                <a class="item" href="#contact">Contact</a>
-            </div>
-        </div>
+        <navbar :items="items"></navbar>
 
         <div class="ui text container">
             <h1 class="ui inverted header">
@@ -37,6 +25,17 @@
         </footer>
     </section>
 </template>
+<script type="text/ecmascript-6">
+    import Navbar from './navbar-top';
+    export default {
+        props: {
+            items: {type: Array, required: true}
+        },
+        components: {
+            Navbar
+        }
+    }
+</script>
 <style>
     #demarrez {
         background-size: cover;

@@ -3,32 +3,35 @@
         <navbar-floating :items="navItems"></navbar-floating>
         <navbar-mobile :items="navItems"></navbar-mobile>
 
-        <cover>
+        <div class="pusher">
+            <cover :items="navItems">
             <span slot="header" class="m-x-auto ">
                 Solution <abbr title="Système d'information de gestion des ressources humaines">SIRH</abbr>
             </span>
-            <small slot="header-subtitle">3 logiciels RH en <b>1</b>.</small>
-        </cover>
+                <small slot="header-subtitle">3 logiciels RH en <b>1</b>.</small>
+            </cover>
 
-        <continue target="#accelerez"></continue>
-        <main class="pusher">
-            <section id="accelerez" class="ui vertical stripe segment">
-                <div class="ui middle aligned stackable grid container">
-                    <mon-idee></mon-idee>
-                    <div class="ui divider"></div>
-                    <ensemble></ensemble>
-                </div>
-            </section>
+            <continue target="#accelerez"></continue>
 
-            <nos-participations :projects="projects"></nos-participations>
+            <main>
+                <section id="accelerez" class="ui vertical stripe segment">
+                    <div class="ui middle aligned stackable grid container">
+                        <mon-idee></mon-idee>
+                        <div class="ui divider"></div>
+                        <ensemble></ensemble>
+                    </div>
+                </section>
 
-            <avis-clients></avis-clients>
+                <nos-participations :projects="projects"></nos-participations>
 
-            <nos-realisations :projects="projects"></nos-realisations>
+                <avis-clients></avis-clients>
 
-            <note-equipe></note-equipe>
+                <nos-realisations :projects="projects"></nos-realisations>
 
-        </main>
+                <note-equipe></note-equipe>
+            </main>
+
+        </div>
 
         <my-footer></my-footer>
         <analytics></analytics>
