@@ -4,7 +4,9 @@
 
 ## Install
 
-    npm install
+**Note:** I'm using [`yarn` by Facebook](https://yarnpkg.com/), it's a lot faster than`npm` with mostly the same API.
+
+    yarn install
     
 N.B.: [`csscritic`](https://github.com/cburgmer/csscritic) require `libcairo-dev` and its dependencies (see following issues [libjpeg-dev][libjpeg-dev], [libgif-dev][libgif-dev], [node-canvas][node-canvas]).
 
@@ -16,13 +18,13 @@ N.B.: [`csscritic`](https://github.com/cburgmer/csscritic) require `libcairo-dev
 
 ``` bash
 # install dependencies
-npm install
+yarn install
 
 # serve with hot reload at localhost:8080
-npm run dev
+yarn run dev
 
 # build for production with minification
-npm run build
+yarn run build
 ```
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
@@ -45,7 +47,7 @@ For detailed explanation on how things work, consult the [docs for vue-loader](h
 1. run:
 
     ```
-    npm run screenshot
+    yarn     run screenshot
     ```
 2. send file store in _tests/screenshots/_ directory.
 
