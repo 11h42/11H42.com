@@ -45,7 +45,7 @@
     import MonIdee from './components/mon-idee'
     import Ensemble from './components/ensemble'
     import NosParticipations from './components/nos-participations'
-    import NoteEquipe from './components/note-equipe'
+    import NoteEquipe from './components/notre-equipe'
     import NosRealisations from './components/nos-realisations'
     import AvisClients from './components/avis-clients'
     import MyFooter from './components/footer'
