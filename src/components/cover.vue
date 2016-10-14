@@ -4,11 +4,11 @@
 
         <div class="ui text container">
             <h1 class="ui inverted header">
-                Accélérateur de projets numériques à Bordeaux
+                <slot name="header"></slot>
             </h1>
             <br>
             <a class="ui huge positive button" href="#accelerez">
-                Démarrez&thinsp;!<i class="right chevron right icon"></i>
+                <slot name="header-subtitle"></slot>
             </a>
         </div>
 

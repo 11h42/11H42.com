@@ -6,9 +6,12 @@
         <div class="pusher">
             <cover :items="navItems">
             <span slot="header" class="m-x-auto ">
-                Solution <abbr title="Système d'information de gestion des ressources humaines">SIRH</abbr>
+                Accélérateur de projets numériques à Bordeaux
             </span>
-                <small slot="header-subtitle">3 logiciels RH en <b>1</b>.</small>
+                <span slot="header-subtitle">
+                    Démarrez&thinsp;!<i class="right chevron right icon"></i>
+
+                </span>
             </cover>
 
 
