@@ -28,6 +28,8 @@
                 <nos-realisations :projects="projects"></nos-realisations>
 
                 <note-equipe></note-equipe>
+
+                <call-to-action></call-to-action>
             </main>
 
         </div>
@@ -50,6 +52,7 @@
     import MyFooter from './components/footer'
     import Analytics from './components/analytics'
     import Continue from './components/continue.vue';
+    import CallToAction from './components/call-to-action.vue';
 
 
     export default {
@@ -65,6 +68,7 @@
             NosRealisations,
             NoteEquipe,
             Continue,
+            CallToAction,
             MyFooter,
             Analytics
         },
