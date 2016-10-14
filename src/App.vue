@@ -11,7 +11,6 @@
                 <small slot="header-subtitle">3 logiciels RH en <b>1</b>.</small>
             </cover>
 
-            <continue target="#accelerez"></continue>
 
             <main>
                 <section id="accelerez" class="ui vertical stripe segment">
@@ -50,7 +49,7 @@
     import AvisClients from './components/avis-clients'
     import MyFooter from './components/footer'
     import Analytics from './components/analytics'
-        import Continue from './components/continue.vue';
+    import Continue from './components/continue.vue';
 
 
     export default {
@@ -205,10 +204,6 @@
         font-size: 1.33em;
     }
 
-    .continue {
-        position: relative;
-        bottom: 8vh;
-    }
     #ensemble {
         margin-top: 4em;
     }

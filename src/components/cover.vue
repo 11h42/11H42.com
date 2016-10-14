@@ -12,6 +12,8 @@
             </a>
         </div>
 
+        <continue target="#accelerez"></continue>
+
         <footer class="meta image copyright">
                 <span>
                     <img src="https://s.yimg.com/pw/images/icon-cc0.png"
@@ -27,12 +29,15 @@
 </template>
 <script type="text/ecmascript-6">
     import Navbar from './navbar-top';
+    import Continue from './continue.vue';
+
     export default {
         props: {
             items: {type: Array, required: true}
         },
         components: {
-            Navbar
+            Navbar,
+            Continue
         }
     }
 </script>
@@ -101,5 +106,10 @@
     .copyright:hover a {
         color: #4183C4;
         text-shadow: none;
+    }
+
+    .continue {
+        position: absolute;
+        bottom: 8vh;
     }
 </style>

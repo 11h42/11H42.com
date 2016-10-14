@@ -1,5 +1,5 @@
 <template>
-    <div class="continue ui center aligned one column grid">
+    <div class="continue ui text container">
         <a :href="target" class="column">
             <span class="sr-only">{{target}}</span>
             <i class="angle down icon"></i>
@@ -23,6 +23,7 @@
         height: 3em;
         z-index: 99;
         left: 0;
+        right: 0;
     }
 
     .continue .icon {
