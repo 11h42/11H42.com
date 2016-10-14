@@ -204,6 +204,10 @@
         font-size: 1.33em;
     }
 
+    .continue {
+        position: relative;
+        bottom: 8vh;
+    }
     #ensemble {
         margin-top: 4em;
     }

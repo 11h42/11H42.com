@@ -19,12 +19,10 @@
     }
 
     .continue {
-        position: absolute;
         width: 100%;
         height: 3em;
         z-index: 99;
         left: 0;
-        bottom: 15vh;
     }
 
     .continue .icon {
