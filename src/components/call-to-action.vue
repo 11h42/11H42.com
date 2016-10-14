@@ -9,7 +9,7 @@
         <section class="ui vertical stripe container segment">
             <div class="ui container center aligned">
                 <h3 class="ui huge header">
-                    Envie d’un <em class="text purple">devis</em> ou simplement de poser une <em class="text orange">question</em>
+                    Envie d’un <em class="text blue">devis</em> ou simplement de poser une <em class="text yellow">question</em>
                     ?
                 </h3>
                 <continue target="#call-to-action"></continue>
