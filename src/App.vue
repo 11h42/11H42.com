@@ -187,6 +187,7 @@
     @import '../node_modules/semantic-ui/dist/components/sticky.css';
     @import '../node_modules/semantic-ui/dist/components/transition.css';
     @import "assets/styles/semantic-ui-helpers.css";
+    @import "assets/styles/text-colors.css";
 
     .ui.vertical.segment {
         border-bottom: none;
