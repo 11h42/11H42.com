@@ -141,7 +141,7 @@ body {
   #wrapper #core .service-picto {
     text-align: center;
     padding: 30px; }
-    #wrapper #core .service-picto img {
+    #wrapper #core .service-picto img:not(.width-auto) {
       width: 80%; }
   #wrapper #core #lab-values {
     text-align: left; }
@@ -211,6 +211,8 @@ body {
   width: 100%;
   position: relative;
   background-image: url("./images/footer_11h42.png");
+  background-repeat: no-repeat;
+  background-color: #eb661c;
   padding-top: 220px;
   padding-bottom: 70px;
   color: white; }

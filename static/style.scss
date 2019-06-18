@@ -216,7 +216,7 @@ body {
       text-align: center;
       padding: 30px;
 
-      img {
+      img:not(.width-auto) {
         width: 80%;
       }
     }
@@ -252,7 +252,7 @@ body {
         transition: opacity 1s ease-in-out;
 
         .product img {
-          padding: 20px;
+          padding: 10px;
           height: 100px;
         }
 
@@ -344,6 +344,8 @@ body {
     width: 100%;
     position: relative;
     background-image: url('./images/footer_11h42.png');
+	background-repeat: no-repeat;
+	background-color:orange;
     padding-top: 220px;
     padding-bottom: 70px;
     color: white;
@@ -377,7 +379,7 @@ body {
       }
 
       #by-akema {
-        font-family: "Visual Establishment", sans-serif;
+        font-family: "Roboto Condensed", sans-serif;
       }
     }
   }
