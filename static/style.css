@@ -10,6 +10,7 @@
 @font-face {
   font-family: "Visual Establishment";
   src: url("fonts/visual_establishment.ttf"); }
+/* global class to appearance text */
 .text-lighter {
   font-weight: lighter; }
 
@@ -21,7 +22,29 @@
 
 .text-right {
   text-align: right; }
+  
+.text-size-title {
+	font-size: 2em; 
+}
 
+.text-size-h2 {
+	font-size: 1.8em;
+}
+
+.text-size-paragraphe {
+	font-size: 1.2em; 
+}
+
+.text-size-small-paragraphe {
+	font-size: 1em;
+	margin-top: -1em;
+}
+
+.text-size-sub-tittle {
+	font-size: 1.5em;
+}
+
+/* inherit css */
 body {
   width: 100%;
   overflow-x: hidden; }
@@ -236,6 +259,7 @@ body {
       text-decoration: none;
       outline: none; }
     #wrapper #footer #mentions-by-akema #by-akema {
-      font-family: "Visual Establishment", sans-serif; }
+      /*font-family: "Visual Establishment", sans-serif; */
+	}
 
 /*# sourceMappingURL=style.css.map */
