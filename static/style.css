@@ -10,6 +10,7 @@
 @font-face {
   font-family: "Visual Establishment";
   src: url("fonts/visual_establishment.ttf"); }
+/* global class to appearance text */
 .text-lighter {
   font-weight: lighter; }
 
@@ -21,7 +22,29 @@
 
 .text-right {
   text-align: right; }
+  
+.text-size-title {
+	font-size: 2em; 
+}
 
+.text-size-h2 {
+	font-size: 1.8em;
+}
+
+.text-size-paragraphe {
+	font-size: 1.2em; 
+}
+
+.text-size-small-paragraphe {
+	font-size: 1em;
+	margin-top: -1em;
+}
+
+.text-size-sub-tittle {
+	font-size: 1.5em;
+}
+
+/* inherit css */
 body {
   width: 100%;
   overflow-x: hidden; }
@@ -137,12 +160,32 @@ body {
   text-align: center;
   padding-top: 30px; }
   #wrapper #core .section-title {
-    padding-top: 50px; }
+    padding-top: 3em; }
+@media screen and (min-width: 768px) {
   #wrapper #core .service-picto {
     text-align: center;
     padding: 30px; }
-    #wrapper #core .service-picto img {
+}
+@media screen and (max-width: 767px) {
+  #wrapper #core .service-picto {
+    text-align: center;
+    padding: 0 30px 0 30px; }
+	#wrapper #core .under-service-picto {
+		margin: 0;
+	}
+}
+    #wrapper #core .service-picto img:not(.width-auto) {
       width: 80%; }
+@media screen and (min-width: 768px) {
+	#wrapper #core .place-technical-expert{
+		padding-top: 9.4em;
+	}
+}
+@media screen and (max-width: 767px) {
+	#wrapper #core .place-technical-expert{
+		padding-top: 0;
+	}
+}
   #wrapper #core #lab-values {
     text-align: left; }
     #wrapper #core #lab-values .value {
@@ -175,6 +218,26 @@ body {
       outline: none;
       text-decoration: none;
       font-size: smaller; }
+@media screen and (min-width: 768px) {
+	#wrapper #core #services .block-left-our-services {
+		padding-right: 5em;
+	}
+}
+@media screen and (min-width: 768px) {
+	#wrapper #core #services .block-right-our-services {
+		padding-left: 5em;
+	}
+}
+	#wrapper #core #services .button-realisations {
+		padding: 10px;
+		margin-right: 25px;
+		background-color: #ff6600;
+		color: white;
+		font-size: 1em;
+		border-radius: 10px;
+		width: auto;
+		display: inline-block;
+	}
   #wrapper #core #contact {
     padding: 50px 25px; }
     #wrapper #core #contact h1 {
@@ -211,6 +274,8 @@ body {
   width: 100%;
   position: relative;
   background-image: url("./images/footer_11h42.png");
+  background-repeat: no-repeat;
+  background-color: #eb661c;
   padding-top: 220px;
   padding-bottom: 70px;
   color: white; }
@@ -234,6 +299,7 @@ body {
       text-decoration: none;
       outline: none; }
     #wrapper #footer #mentions-by-akema #by-akema {
-      font-family: "Visual Establishment", sans-serif; }
+      /*font-family: "Visual Establishment", sans-serif; */
+	}
 
 /*# sourceMappingURL=style.css.map */
