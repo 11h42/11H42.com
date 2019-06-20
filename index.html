@@ -17,9 +17,9 @@
     <link rel="stylesheet" href="./static/style.css">
     <link rel="icon" href="favicon.ico">
 
-    <script type="text/javascript" src="./static/jquery/jquery.min.js"></script>
-    <script type="text/javascript" src="./static/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="./static/script.js"></script>
+    <script defer type="text/javascript" src="./static/jquery/jquery.min.js"></script>
+    <script defer type="text/javascript" src="./static/bootstrap/js/bootstrap.min.js"></script>
+    <script defer type="text/javascript" src="./static/script.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-72328726-1"></script>
     <script>
@@ -28,6 +28,12 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-72328726-1');
+		
+		function load_map() {
+			var mapFrame = document.getElementById("mapFrame");
+			mapFrame.setAttribute('src',"https://www.google.com/maps/embed/v1/place?key=AIzaSyCqVHbCzdzYU9QOXWLoTuPa5CLZzL7gmOU&q=AKEMA+SAS&zoom=11");
+		}
+		window.onload = load_map;
     </script>
 </head>
 
@@ -451,8 +457,7 @@
                     <div class="col-sm-4 hidden-xs text-right">
                         <p class="text-size-h2"><b>Nous sommes ici</b></p>
                         <div id="map">
-                            <iframe frameborder="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCqVHbCzdzYU9QOXWLoTuPa5CLZzL7gmOU&q=AKEMA+SAS
-                                        &zoom=11">
+                            <iframe id="mapFrame" frameborder="0" src="">
                             </iframe>
                         </div>
                     </div>
@@ -464,8 +469,7 @@
             </div>
         </div>
     </div>
-
-
+	
     <!-- Start of HubSpot Embed Code -->
     <!--<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4749470.js"></script>-->
     <!-- End of HubSpot Embed Code -->
