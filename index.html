@@ -31,6 +31,9 @@
 
         gtag('config', 'UA-72328726-1');
 		
+		var myHeaders = new Headers();
+		myHeaders.append('X-Frame-Options', 'deny');
+		
 		function load_map() {
 			var mapFrame = document.getElementById("mapFrame");
 			mapFrame.setAttribute('src',"https://www.google.com/maps/embed/v1/place?key=AIzaSyCqVHbCzdzYU9QOXWLoTuPa5CLZzL7gmOU&q=AKEMA+SAS&zoom=11");
@@ -459,7 +462,7 @@
                     <div class="col-sm-4 hidden-xs text-right">
                         <p class="text-size-h2"><b>Nous sommes ici</b></p>
                         <div id="map">
-                            <iframe id="mapFrame" frameborder="0" src="">
+                            <iframe id="mapFrame" frameborder="0" src="" sandbox="allow-scripts allow-same-origin">
                             </iframe>
                         </div>
                     </div>
