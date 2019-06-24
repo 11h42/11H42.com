@@ -35,7 +35,12 @@
 			var mapFrame = document.getElementById("mapFrame");
 			mapFrame.setAttribute('src',"https://www.google.com/maps/embed/v1/place?key=AIzaSyCqVHbCzdzYU9QOXWLoTuPa5CLZzL7gmOU&q=AKEMA+SAS&zoom=11");
 		}
-		window.onload = load_map;
+		
+		function load_temp_data() {
+			load_map();
+			load_image_defered();
+		}
+		window.onload = load_temp_data;
     </script>
 </head>
 
@@ -120,27 +125,27 @@
                 </p>
                 <div class="row">
                     <div class="service-picto col-md-3 col-sm-6 col-xs-12">
-                        <img src="./static/images/accompagnement.png" alt="Accompagnement">
+                        <img src="" id="img_accomp" alt="Accompagnement">
                         <p class="text-size-sub-tittle under-service-picto"><b>On vous accompagne dès le début</b></p>
                         <hr class="under-service-picto">
                         <p class="text-lighter text-size-paragraphe">Écoute et découverte du projet <br />Ciblage des idées <br />Etude de faisabilité (POC)<br />Réalisation de cahier des charges <br />Budgétisation </p>
                     </div>
                     <div class="service-picto col-md-3 col-sm-6 col-xs-12">
-                        <img src="./static/images/faisabilite.png" alt="Création, Conception et développement">
+                        <img src="" id="img_faisab" alt="Création, Conception et développement">
                         <p class="text-size-sub-tittle under-service-picto"><b>Création, Conception et développement</b></p>
                         <hr class="under-service-picto">
                         <p class="text-lighter text-size-paragraphe">Charte graphique <br />Expérience utilisateur UX <br />Interface utilisateur UI <br />Responsive design <br />Développement technique <br />Prototype fonctionnel
                         </p>
                     </div>
                     <div class="service-picto col-md-3 col-sm-6 col-xs-12">
-                        <img src="./static/images/creation.png" alt="Test & Recette">
+                        <img src="" id="img_creati" alt="Test & Recette">
                         <p class="text-size-sub-tittle under-service-picto"><b>Test & Recette</b></p>
 						<br class="under-service-picto"/>
                         <hr class="under-service-picto">
                         <p class="text-lighter text-size-paragraphe">Réalisation de test unitaire <br />On s'adapte à vos contraintes métiers <br />Intégration en continu <br />Optimisations techniques</p>
                     </div>
                     <div class="service-picto col-md-3 col-sm-6 col-xs-12">
-                        <img src="./static/images/assistance.png" alt="Livraison et Installation">
+                        <img src="" id="img_assist" alt="Livraison et Installation">
                         <p class="text-size-sub-tittle under-service-picto"><b>Livraison et Installation</b></p>
 						<br class="under-service-picto"/>
                         <hr class="under-service-picto">
@@ -167,18 +172,18 @@
 						<div class="réalisations">
 							<br />
 							<br />
-							<a href="https://www.jepilotemonentreprise.com/"target="_blank" ><img src="./static/images/logo-je-pilote-entreprise.png" align="left" alt="Logo Je pilote mon Entreprise" border="0"></a>
-							<a href="https://apidae.biz/" target="_blank" ><img src="./static/images/apidae.png" align="center" alt="Logo Apidae" border="0"></a>
-							<a href="https://preva.fr/logiciel/" target="_blank" ><img src="./static/images/logo-preva.png" align="right" alt="Logo Preva" border="0"></a>
+							<a href="https://www.jepilotemonentreprise.com/"target="_blank" ><img src="./static/images/logo-je-pilote-entreprise.png" align="left" id="rea_entreprise" alt="Logo Je pilote mon Entreprise" border="0"></a>
+							<a href="https://apidae.biz/" target="_blank" ><img src="./static/images/apidae.png" align="center" id="rea_apidae" alt="Logo Apidae" border="0"></a>
+							<a href="https://preva.fr/logiciel/" target="_blank" ><img src="./static/images/logo-preva.png" align="right" id="rea_preva" alt="Logo Preva" border="0"></a>
 							<br />
 							<br />
 							<br /> 
-							<a href="https://akemail.fr/" target="_blank" ><img src="./static/images/akemail.png" align="left" alt="Logo Akemail" border="0"></a>
-							<a href="https://www.overfull.fr/" target="_blank" ><img src="./static/images/overfull.png" align="center" alt="Logo Overfull" border="0"></a>
+							<a href="https://akemail.fr/" target="_blank" ><img src="./static/images/akemail.png" align="left" id="rea_akemail" alt="Logo Akemail" border="0"></a>
+							<a href="https://www.overfull.fr/" target="_blank" ><img src="./static/images/overfull.png" align="center" id="rea_overfull" alt="Logo Overfull" border="0"></a>
 							<br />
 							<br />
 							<br />  
-							<a href="https://www.trilogie-sante.com/" target="_blank" ><img src="./static/images/logo-trilogie.png" align="right" alt="Logo Trilogie santé" border="0"></a>
+							<a href="https://www.trilogie-sante.com/" target="_blank" ><img src="./static/images/logo-trilogie.png" align="right" id="rea_trilogie" alt="Logo Trilogie santé" border="0"></a>
 							<br />
 							<br />
 							<br />
@@ -267,7 +272,7 @@
                         </h2>
                         <div class="col-lg-6 product">
                             <p class="text-size-h2"><b>APIDAE</b></p>
-                            <img src="./static/images/apidae.png" alt="Logo Apidae">
+                            <img src="" id="img_apidae" alt="Logo Apidae">
                             <hr>
                             <p class="text-size-sub-tittle"><b>Pro et efficace</b></p>
                             <p class="text-lighter text-size-paragraphe">
@@ -290,7 +295,7 @@
 
                         <div class="col-lg-6 product">
                             <p class="text-size-h2"><b>AKEMAIL</b></p>
-                            <img src="./static/images/akemail.png" alt="Logo Akemail">
+                            <img src="" id="img_akemail" alt="Logo Akemail">
                             <hr>
                             <p class="text-size-sub-tittle"><b>Simple et rapide</b></p>
                             <p class="text-lighter text-size-paragraphe">
@@ -320,7 +325,7 @@
                         <div class="content-realisation">
                             <div class="row">
                                 <div class="col-sm-6 col-xs-12 product">
-                                    <img src="./static/images/logo_je_pilote_entreprise.png" alt="Logo Je pilote mon Entreprise">
+                                    <img src="" id="img_pilot" alt="Logo Je pilote mon Entreprise">
                                     <p class="text-lighter text-size-paragraphe"><b>Je Pilote Mon Entreprise</b>
                                         est un outil intuitif pour tout gérer dans votre Entreprise : Devis, factures, achats,
                                             relevés bancaires, gestion de documents, exports de données, tableaux de bords...
@@ -328,7 +333,7 @@
                                 </div>
 
                                 <div class="col-sm-6 col-xs-12 product">
-                                    <img src="./static/images/overfull.png" alt="Logo Overfull">
+                                    <img src="" id="img_overf" alt="Logo Overfull">
                                     <p class="text-lighter text-size-paragraphe"><b>Overfull, cahier de réservation numérique</b>
                                         Overfull est une application de gestion des réservations pour les restaurateurs. 
 										      C’est un cahier de réservation numérique qui dispose de nombreuses fonctionnalités. 
@@ -338,7 +343,7 @@
 
                             <div class="row">
                                 <div class="col-sm-6 col-xs-12 product">
-                                    <img src="./static/images/logo_trace_etik.png" alt="Logo Trace Etik">
+                                    <img src="" id="img_trace" alt="Logo Trace Etik">
                                     <p class="text-lighter text-size-paragraphe"><b>Anti-contrefaçon, traçabilité & marketing :</b>
                                         Solution de traçabilité pour le secteur viticole. Le dispositif anti-contrefaçon
                                             est directement imprimable sur vos contre-étiquettes.
@@ -346,7 +351,7 @@
                                 </div>
 
                                 <div class="col-sm-6 col-xs-12 product">
-                                    <img src="./static/images/logo-preva.png" alt="Logo Preva">
+                                    <img src="" id="img_preva" alt="Logo Preva">
                                     <p class="text-lighter text-size-paragraphe"><b>Evaluation et Prévention du risque en entreprise :</b>
                                         Le logiciel facilite l'élaboration du document unique et des plans de prévention, pour les entreprises
                                             et les collectivités.
@@ -376,49 +381,49 @@
                 <h2 class="section-title text-orange text-size-h2">NOTRE ÉQUIPE DE PASSIONNÉS</h2>
                 <div class="row">
                     <div class="member-profile col-sm-3 col-xs-6">
-                        <img src="./static/images/avatars/fred.png" alt="Photo Frédéric">
+                        <img src="" id="img_fred" alt="Photo Frédéric">
                         <p class="text-lighter text-size-paragraphe"><b>Frédéric</b></p>
                         <p class="text-lighter text-size-small-paragraphe">Big Boss</p>
                     </div>
 
                     <div class="member-profile col-sm-3 col-xs-6">
-                        <img src="./static/images/avatars/cedric.png" alt="Photo Cédric">
+                        <img src="" id="img_cedr" alt="Photo Cédric">
                         <p class="text-lighter text-size-paragraphe"><b>Cédric</b></p>
                         <p class="text-lighter text-size-small-paragraphe">Architecte Infrastructure Distribuée</p>
                     </div>
                    
                     <div class="member-profile col-sm-3 col-xs-6">
-                        <img src="./static/images/avatars/jeremi.png" alt="Photo Jérémi">
+                        <img src="" id="img_jere" alt="Photo Jérémi">
                         <p class="text-lighter text-size-paragraphe"><b>Jérémi</b></p>
                         <p class="text-lighter text-size-small-paragraphe">Développeur Polyglotte</p>
                     </div>
 
                     <div class="member-profile col-sm-3 col-xs-6">
-                        <img src="./static/images/avatars/maxime.png" alt="Photo Maxime">
+                        <img src="" id="img_maxi" alt="Photo Maxime">
                         <p class="text-lighter text-size-paragraphe"><b>Maxime</b></p>
                         <p class="text-lighter text-size-small-paragraphe">Développeur Fullstack</p>
                     </div>
 
                      <div class="member-profile col-sm-3 col-xs-6">
-                        <img src="./static/images/avatars/isabelle.png" alt="Photo Isabelle">
+                        <img src="" id="img_isab"alt="Photo Isabelle">
                         <p class="text-lighter text-size-paragraphe"><b>Isabelle</b></p>
                         <p class="text-lighter text-size-small-paragraphe">Développpeuse Conceptrice</p>
                     </div>
 
                     <div class="member-profile col-sm-3 col-xs-6">
-                        <img src="./static/images/avatars/melanie.png" alt="Photo Mélanie">
+                        <img src="" id="img_mela" alt="Photo Mélanie">
                         <p class="text-lighter text-size-paragraphe"><b>Mélanie</b></p>
                         <p class="text-lighter text-size-small-paragraphe">Responsable Commerciale</p>
                     </div>
 					
 					<div class="member-profile col-sm-3 col-xs-6">
-                        <img src="./static/images/avatars/Maxence.png" alt="Photo Maxence">
+                        <img src="" id="img_maxe" alt="Photo Maxence">
                         <p class="text-lighter text-size-paragraphe"><b>Maxence</b></p>
                         <p class="text-lighter text-size-small-paragraphe">Développeur Fullstack</p>
                     </div>
 					
                     <div class="member-profile col-sm-3 col-xs-6">
-                        <img src="./static/images/avatars/Marie.png" alt="Photo Marie">
+                        <img src="" id="img_mari" alt="Photo Marie">
                         <p class="text-lighter text-size-paragraphe"><b>Marie</b></p>
                         <p class="text-lighter text-size-small-paragraphe">Chargée web marketing</p>
                     </div>
